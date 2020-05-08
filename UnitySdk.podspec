@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UnitySdk'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Unity Game SDK'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
-  s.dependency 'AFNetworking'
   s.dependency 'UMCCommon'
   s.dependency 'UMCAnalytics'
   s.dependency 'UMCCommonLog'

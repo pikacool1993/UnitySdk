@@ -1,25 +1,9 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - UMCAnalytics (6.0.5):
     - UMCCommon
   - UMCCommon (2.1.1)
   - UMCCommonLog (1.0.0)
-  - UnitySdk (0.0.1):
-    - AFNetworking
+  - UnitySdk (0.0.2):
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
@@ -29,7 +13,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
@@ -39,11 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
-  UnitySdk: e84ff65eca4ceeb63470bd5bb841bf7ae65a6874
+  UnitySdk: a407a282470a8afc94f2c917dc6ae2578656fb34
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 
