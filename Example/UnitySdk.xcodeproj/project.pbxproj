@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		001B748824652186001792CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 001B748424652186001792CB /* .gitkeep */; };
 		001B748A24652186001792CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 001B748724652186001792CB /* .gitkeep */; };
-		001B748E2465221D001792CB /* PMGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B748D2465221D001792CB /* PMGameManager.m */; };
+		001B749124653048001792CB /* PMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B749024653048001792CB /* PMAppDelegate.m */; };
 		29F24C6A71AE6CF107C3DC20 /* Pods_UnitySdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA5145071B6937AE9449115 /* Pods_UnitySdk_Tests.framework */; };
 		52664B32E2046CFD2F8C0EF1 /* Pods_UnitySdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -42,8 +42,8 @@
 /* Begin PBXFileReference section */
 		001B748424652186001792CB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		001B748724652186001792CB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		001B748C2465221D001792CB /* PMGameManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMGameManager.h; sourceTree = "<group>"; };
-		001B748D2465221D001792CB /* PMGameManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMGameManager.m; sourceTree = "<group>"; };
+		001B748F24653048001792CB /* PMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMAppDelegate.h; sourceTree = "<group>"; };
+		001B749024653048001792CB /* PMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMAppDelegate.m; sourceTree = "<group>"; };
 		2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D54F7D9C747B03F413B94D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		466E214ACB696AE4621C79A2 /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,8 +115,9 @@
 		001B748324652186001792CB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				001B748B246521C1001792CB /* Manager */,
 				001B748424652186001792CB /* .gitkeep */,
+				001B748F24653048001792CB /* PMAppDelegate.h */,
+				001B749024653048001792CB /* PMAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -127,15 +128,6 @@
 				001B748724652186001792CB /* .gitkeep */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		001B748B246521C1001792CB /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				001B748C2465221D001792CB /* PMGameManager.h */,
-				001B748D2465221D001792CB /* PMGameManager.m */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		580507FE78C783EBEAE83D26 /* Pods */ = {
@@ -413,10 +405,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				001B748E2465221D001792CB /* PMGameManager.m in Sources */,
 				6003F59E195388D20070C39A /* GUAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GUViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				001B749124653048001792CB /* PMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
