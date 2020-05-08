@@ -1,0 +1,6 @@
+framework module Pods_UnitySdk_Tests {
+  umbrella header "Pods-UnitySdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

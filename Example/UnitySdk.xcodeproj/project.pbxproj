@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35D54F7D9C747B03F413B94D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		35D54F7D9C747B03F413B94D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		466E214ACB696AE4621C79A2 /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4E759CE90437A53EE20C8CC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4E759CE90437A53EE20C8CC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UnitySdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitySdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		671AF7E276A3AA653B657E20 /* Pods-UnitySdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Tests/Pods-UnitySdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C195DD1C8480B059DB2389E /* UnitySdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UnitySdk.podspec; path = ../UnitySdk.podspec; sourceTree = "<group>"; };
+		9C195DD1C8480B059DB2389E /* UnitySdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UnitySdk.podspec; path = ../UnitySdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D17878D8FB007B2D43B2E3D /* Pods-UnitySdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Tests/Pods-UnitySdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AD8D6AB309CB4BFA715DB2D5 /* Pods-UnitySdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Example.release.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FFA5145071B6937AE9449115 /* Pods_UnitySdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				671AF7E276A3AA653B657E20 /* Pods-UnitySdk_Tests.debug.xcconfig */,
 				9D17878D8FB007B2D43B2E3D /* Pods-UnitySdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pikacool1993;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = DC5DNH9SL2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -346,10 +349,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/UnitySdk/UnitySdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnitySdk.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = 466E214ACB696AE4621C79A2 /* Pods-UnitySdk_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DC5DNH9SL2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnitySdk/UnitySdk-Prefix.pch";
 				INFOPLIST_FILE = "UnitySdk/UnitySdk-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = AD8D6AB309CB4BFA715DB2D5 /* Pods-UnitySdk_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DC5DNH9SL2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnitySdk/UnitySdk-Prefix.pch";
 				INFOPLIST_FILE = "UnitySdk/UnitySdk-Info.plist";

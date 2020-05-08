@@ -1,0 +1,6 @@
+framework module UnitySdk {
+  umbrella header "UnitySdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

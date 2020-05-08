@@ -1,0 +1,27 @@
+{
+  "name": "UnitySdk",
+  "version": "0.0.1",
+  "summary": "Unity Game SDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pikacool1993/UnitySdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pikacool1993": "wanglei@palmax.cn"
+  },
+  "source": {
+    "git": "https://github.com/pikacool1993/UnitySdk.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UnitySdk/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
