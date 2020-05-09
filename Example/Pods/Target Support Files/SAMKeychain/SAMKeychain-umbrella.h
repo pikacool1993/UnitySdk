@@ -10,9 +10,9 @@
 #endif
 #endif
 
-#import "PMApplication.h"
-#import "PMDevice.h"
+#import "SAMKeychain.h"
+#import "SAMKeychainQuery.h"
 
-FOUNDATION_EXPORT double UnitySdkVersionNumber;
-FOUNDATION_EXPORT const unsigned char UnitySdkVersionString[];
+FOUNDATION_EXPORT double SAMKeychainVersionNumber;
+FOUNDATION_EXPORT const unsigned char SAMKeychainVersionString[];
 

@@ -1,9 +1,11 @@
 PODS:
+  - SAMKeychain (1.5.3)
   - UMCAnalytics (6.0.5):
     - UMCCommon
   - UMCCommon (2.1.1)
   - UMCCommonLog (1.0.0)
-  - UnitySdk (0.0.2):
+  - UnitySdk (0.0.2.4):
+    - SAMKeychain
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
@@ -13,6 +15,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - SAMKeychain
     - UMCAnalytics
     - UMCCommon
     - UMCCommonLog
@@ -22,10 +25,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
-  UnitySdk: a407a282470a8afc94f2c917dc6ae2578656fb34
+  UnitySdk: fa476157ab8eb25c2cafb36681c76f7bef191848
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 

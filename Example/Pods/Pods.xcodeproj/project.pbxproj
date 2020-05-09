@@ -38,16 +38,28 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		289FE16A7E891F91547B362D2F5B21A8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D54B430628BB6D9F7F3CB03A28939F17 /* ReplaceMe.m */; };
-		31274254C15D0D075DEE8A0997946B0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		39C2BADFD449193302433A1794E826D5 /* Pods-UnitySdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2AA78C2CA918EA6B3EE8AFD6AD7DA /* Pods-UnitySdk_Example-dummy.m */; };
-		5847D6DF7370A63C162FBA1D774E37BE /* Pods-UnitySdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646764B8FE03940FB8A69404FD4856D3 /* Pods-UnitySdk_Tests-dummy.m */; };
-		5BA9A2B327A00E9622FCE233957F2D33 /* UnitySdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5A7BE0A5D59C67B7B04D4F557EDCA9 /* UnitySdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C845F9316161E15573A390650CEDA86 /* Pods-UnitySdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CED4B5C86F747DA50C3362A0F0D24E /* Pods-UnitySdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A172631DACBC6FA7387769DF1EF65736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC9F742A60B5F7D198C76746D869CAE5 /* Pods-UnitySdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C780C7A9CC109B5D48D19E6ED5F1E76B /* Pods-UnitySdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB66C32D4FBE8956B098A14D948FCBD8 /* UnitySdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC981C60C57DF709D5E09E58FF7BDA /* UnitySdk-dummy.m */; };
-		D1B26619C3D125E537D65A7961702AE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDB2DB28DFC733CA8F7DA5350D181D2 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		09F1B9B355EDB71CE6A168FC26011C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		0D588EDFA9B818DE10DCE553E911C76E /* PMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EAFE2D67EEF413ACBE600632432F72 /* PMDevice.m */; };
+		0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CD4820C181ADACECE6FA7580B9D011 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180B0BC996F28420A22940BB965F2687 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F36709D45390C8C8179EDEBA75D4D5F9 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19777D27DE2D3FA10BBABE21E93E6736 /* UnitySdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A290E874DE66FF62B5088D7491D84120 /* UnitySdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F76FE48BAE3021631A8C0EC47758EA0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
+		2550EA80C45F86FEFB6B484590C3127B /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 86983E41AF0B0034CAC5408E0503FF26 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48749968F49ABC19B218B6A650DA2EFA /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A9A120898A829C119E8B48FE2EBE7CFB /* SAMKeychain.bundle */; };
+		5847D6DF7370A63C162FBA1D774E37BE /* Pods-UnitySdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDE5AB38CB014B2C2CE514BB29A068 /* Pods-UnitySdk_Tests-dummy.m */; };
+		5C845F9316161E15573A390650CEDA86 /* Pods-UnitySdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0485DDDDF4A2919273AF67D36A06CEAE /* Pods-UnitySdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2425E67EF1483DAAC8F61B3556BAB5 /* Pods-UnitySdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F0AB580CBC7DD81B67D651C24F069B /* Pods-UnitySdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9054D7229179A6815011DB0982FCA92E /* PMApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 192928CA46A201B86265A7FE0CF90346 /* PMApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A172631DACBC6FA7387769DF1EF65736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		A44705A450B7BC75180A9FC266CCFB3D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 257CFF7A19167072C15C2B25379FA27F /* SAMKeychain-dummy.m */; };
+		B99B5E38E9285CF6DB22E6CB1CA3B880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		C050181AF88C681D976640BD1FCC41BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
+		CCC0CABB1AADB1E1751D6FC4F8CC4DAC /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5600846638DB66F47904B3A45A9AB3D /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57D16DE136F6AD6E63519B23ABF83A6 /* PMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2CBC907CF6E5BFEFF1BAFC5E5B064F /* PMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6ABD2C6CAC4FB8FCC68BD91397CDEEB /* Pods-UnitySdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A49103E4D0B6D8BFA10BC720AF55B /* Pods-UnitySdk_Example-dummy.m */; };
+		EF16C3B1A17E8AC3C57A114D661AD102 /* PMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 560AC450F00BE8E2E7F471BD7870744C /* PMApplication.m */; };
+		F03964366DA793BA6F7883FE08CD9B8E /* UnitySdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BDD8BE5D440AFAECA039DEC82F9A25 /* UnitySdk-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,19 +70,19 @@
 			remoteGlobalIDString = 27BB973E4395BF67546F615FF587BE74;
 			remoteInfo = "Pods-UnitySdk_Example";
 		};
-		331A1FA79819801269DB8CC128B3BB07 /* PBXContainerItemProxy */ = {
+		30D18C76837F1F6B20B931CA020D7EBC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD2E8643412994484A50DA7D3BFB1EFC;
 			remoteInfo = UMCAnalytics;
 		};
-		394B29485972C31368BB88920761653A /* PBXContainerItemProxy */ = {
+		3A07F2F78BF4C6AAA9BB945689122978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
-			remoteInfo = UMCCommon;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
 		};
 		53023D3FFE4E5A2884C7F8871827AE08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -79,86 +91,134 @@
 			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
 			remoteInfo = UMCCommon;
 		};
-		70C711EB81DF01052C5118F9F92DFF8B /* PBXContainerItemProxy */ = {
+		5FC0A3A4927DBBB5F1DC5AEC798398E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D87E26324D77CB34D7783795202704ED;
 			remoteInfo = UnitySdk;
 		};
-		8AF7364B02C9088EB540A6D88E75A8B9 /* PBXContainerItemProxy */ = {
+		636198149D4D311DA9EA99469D54ABC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
 			remoteInfo = UMCCommon;
 		};
-		C786B515B2A686C983D9021FB9E5FC16 /* PBXContainerItemProxy */ = {
+		7CA0368C4FADCCE08B1F2AFF82DF26D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6075E73CE9761233A64B697DA4780D60;
+			remoteInfo = UMCCommonLog;
+		};
+		8CDB24E0010DBFAAEEF6CF2D5B30BA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F6B630FA5213AB083E7CEF1F986FE44;
+			remoteInfo = UMCCommon;
+		};
+		C8FDD75D0C3C6B788EFD025652D7AF2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6075E73CE9761233A64B697DA4780D60;
+			remoteInfo = UMCCommonLog;
+		};
+		F23A57FAB6C0F04976482A4E995D848C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD2E8643412994484A50DA7D3BFB1EFC;
 			remoteInfo = UMCAnalytics;
 		};
-		DBF7AD5DE2AB94EAF94B2CE2758F9A8C /* PBXContainerItemProxy */ = {
+		FA67B63A2DE78E3A81B9B9D1D9C273B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6075E73CE9761233A64B697DA4780D60;
-			remoteInfo = UMCCommonLog;
-		};
-		F72036DD278C121F66944EAABD56DD4B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6075E73CE9761233A64B697DA4780D60;
-			remoteInfo = UMCCommonLog;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A4E0EDEBD561FC826DC13320326599 /* UnitySdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnitySdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0E143E9AFC643D84AE722A06B5409A72 /* UnitySdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnitySdk.modulemap; sourceTree = "<group>"; };
-		16692D5EDEC013F6704391BB6F2D292E /* Pods-UnitySdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		21FA31730C32268BC93D917914153BE3 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34D454FF3968876AADCBEF08CAF37133 /* Pods-UnitySdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		351956E1EDC82BB3231EA8E172FB1060 /* Pods-UnitySdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D43AE2AEAE5E8BF3EB7C98C3F26BC81 /* Pods-UnitySdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-Info.plist"; sourceTree = "<group>"; };
-		571164E6B4D24C63A4FA70D23F2D0D2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		5DCD18A56E7776189146864C5A11EB73 /* Pods-UnitySdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0485DDDDF4A2919273AF67D36A06CEAE /* Pods-UnitySdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E2B6E28695A1863EAC3B165A0D47C6A /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		0FD1562CB72DC473E3385393715D30FA /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		12EF4C617FAFD53CC7E09E475D9CE2FE /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
+		15002DBC3DF36115E16492DB8F6DF875 /* UMCAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCAnalytics.xcconfig; sourceTree = "<group>"; };
+		192928CA46A201B86265A7FE0CF90346 /* PMApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMApplication.h; path = UnitySdk/Classes/Utils/PMApplication.h; sourceTree = "<group>"; };
+		1DA3066935AE25F35A60082F7A58DD8C /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		2125AC61485FCEE20C65916BDF2C2BC3 /* UnitySdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.xcconfig; sourceTree = "<group>"; };
+		23A451480DC76F5A2045D8C991128958 /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = UMCommonLog/UMCommonLog.framework; sourceTree = "<group>"; };
+		257CFF7A19167072C15C2B25379FA27F /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		2933376A0965ACAAEDECB77837D51616 /* Pods-UnitySdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		355DE328625F82A6679C54FE78EC1163 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
+		39F0AB580CBC7DD81B67D651C24F069B /* Pods-UnitySdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		4B2CBC907CF6E5BFEFF1BAFC5E5B064F /* PMDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMDevice.h; path = UnitySdk/Classes/Utils/PMDevice.h; sourceTree = "<group>"; };
+		50BDD8BE5D440AFAECA039DEC82F9A25 /* UnitySdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnitySdk-dummy.m"; sourceTree = "<group>"; };
+		560AC450F00BE8E2E7F471BD7870744C /* PMApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMApplication.m; path = UnitySdk/Classes/Utils/PMApplication.m; sourceTree = "<group>"; };
+		5965AEA2B680CB868063591D1E9D3B39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5ACB5CD27BD3B380AD772EB6F7E387EB /* Pods-UnitySdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C81F0F2FFEAA83A1042633917A1634 /* Pods-UnitySdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-Info.plist"; sourceTree = "<group>"; };
 		62813AB3D9E3E9F364FDCFFDDCFAC523 /* UnitySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnitySdk.framework; path = UnitySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		646764B8FE03940FB8A69404FD4856D3 /* Pods-UnitySdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Tests-dummy.m"; sourceTree = "<group>"; };
-		6623A4A266E3CB4272F6EDB3314BF958 /* Pods-UnitySdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6AF89F38A4129210F4C9F3E368BEF249 /* Pods-UnitySdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Example.modulemap"; sourceTree = "<group>"; };
-		7894ECC2328515FF4CA543E7BBB2648B /* Pods-UnitySdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitySdk_Example-resources.sh"; sourceTree = "<group>"; };
-		8140BE001D8FF2EAA894E0878D981318 /* UnitySdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitySdk-Info.plist"; sourceTree = "<group>"; };
-		8CF0E87A4FBA472CBF12DB01DB596064 /* Pods-UnitySdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Tests.modulemap"; sourceTree = "<group>"; };
+		63F8F686599CE70CC3A44FC4D062C501 /* Pods-UnitySdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Tests.modulemap"; sourceTree = "<group>"; };
+		6516857E5C1644F413E4391673C6238A /* UnitySdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-prefix.pch"; sourceTree = "<group>"; };
+		6ABB35FB68D15C1CC7C40733531CFD3E /* Pods-UnitySdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		770D4FC6F7C6773339ACF55E539CEFF2 /* UnitySdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitySdk-Info.plist"; sourceTree = "<group>"; };
+		78F98DE2FB11ACA560D9F236AD246064 /* UMCCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.xcconfig; sourceTree = "<group>"; };
+		83BF6B705F569AE2AFAB1F5746815636 /* Pods-UnitySdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		86983E41AF0B0034CAC5408E0503FF26 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
 		932828F178277609B1D22FB300DB0E9A /* Pods_UnitySdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnitySdk_Tests.framework; path = "Pods-UnitySdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990A49103E4D0B6D8BFA10BC720AF55B /* Pods-UnitySdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Example-dummy.m"; sourceTree = "<group>"; };
+		9BDF85D405E8001AB7CB70F1AD70439D /* Pods-UnitySdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1F48E40F682962B8BF0DB15A2E9E30 /* UMCAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCAnalytics.xcconfig; sourceTree = "<group>"; };
-		A0192B3166D71164B4A987722FC477A2 /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A148FE4B49A0486B79D7340422A40762 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A918A208E538B6AF98E20EA2CCD7278A /* Pods-UnitySdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A290E874DE66FF62B5088D7491D84120 /* UnitySdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-umbrella.h"; sourceTree = "<group>"; };
+		A4BE2FED7F4B0F5068EEADA271779ED2 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		A9A120898A829C119E8B48FE2EBE7CFB /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		AA02E3E76AF81C49E475133AF69D191D /* Pods-UnitySdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitySdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AAAE413825D78CA1670AAE5B959A414F /* UMCommonLog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMCommonLog.bundle; path = UMCommonLog/UMCommonLog.bundle; sourceTree = "<group>"; };
 		AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnitySdk_Example.framework; path = "Pods-UnitySdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1D7049DA0921DB3FCBCF81F5386CEA1 /* Pods-UnitySdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-Info.plist"; sourceTree = "<group>"; };
-		B3C2AA78C2CA918EA6B3EE8AFD6AD7DA /* Pods-UnitySdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Example-dummy.m"; sourceTree = "<group>"; };
-		BA5A7BE0A5D59C67B7B04D4F557EDCA9 /* UnitySdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-umbrella.h"; sourceTree = "<group>"; };
-		C780C7A9CC109B5D48D19E6ED5F1E76B /* Pods-UnitySdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		C8BC981C60C57DF709D5E09E58FF7BDA /* UnitySdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnitySdk-dummy.m"; sourceTree = "<group>"; };
-		C96F17F1F35FF634C7BAFC2FFCE06944 /* UMCommonLog.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMCommonLog.bundle; path = UMCommonLog/UMCommonLog.bundle; sourceTree = "<group>"; };
-		C9CED4B5C86F747DA50C3362A0F0D24E /* Pods-UnitySdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CAF7EDD038948DAFCC0C1DA0F7DC2F3E /* UMCCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommon.xcconfig; sourceTree = "<group>"; };
-		CC40EE89F417D43BDE6E405433482913 /* UnitySdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-prefix.pch"; sourceTree = "<group>"; };
-		D54B430628BB6D9F7F3CB03A28939F17 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = UnitySdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		DA3826B78EDDF4C63A814B518D2C719B /* UMCommonLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMCommonLog.framework; path = UMCommonLog/UMCommonLog.framework; sourceTree = "<group>"; };
-		E7A5FA7273E0AF005609BD8149C5DFD5 /* Pods-UnitySdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E84D658A91044B62345A63FAFC7AB246 /* UnitySdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.xcconfig; sourceTree = "<group>"; };
-		E91238093897E68892A2E8903916012C /* UMCCommonLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommonLog.xcconfig; sourceTree = "<group>"; };
-		F52E0C1F404675528C9C9230C0549308 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		AFE8617CA83228EED52EE50D7FD220C0 /* UnitySdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnitySdk.modulemap; sourceTree = "<group>"; };
+		B2EAFE2D67EEF413ACBE600632432F72 /* PMDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMDevice.m; path = UnitySdk/Classes/Utils/PMDevice.m; sourceTree = "<group>"; };
+		B8CD4820C181ADACECE6FA7580B9D011 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		BCE187E0983322C5EEFCFD1B2758B702 /* Pods-UnitySdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitySdk_Example-resources.sh"; sourceTree = "<group>"; };
+		C363865F7E4BB9A9D4EF500A5F42EDDD /* Pods-UnitySdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C511162801B3109BA1BD1F1CB47861E0 /* UMCCommonLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMCCommonLog.xcconfig; sourceTree = "<group>"; };
+		C5600846638DB66F47904B3A45A9AB3D /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
+		CFBDE5AB38CB014B2C2CE514BB29A068 /* Pods-UnitySdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		D6D72D4F2696A6323A5F9657218D8D8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D7970CB2DE8243F778907950FB3DD157 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		DD2CB7CAC0BF32BFE3EC2C4055B78999 /* Pods-UnitySdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEDB2DB28DFC733CA8F7DA5350D181D2 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		ED53F63DBF4F5D6DD480B2654F3AD28F /* Pods-UnitySdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F308DC34F644A7F654AACE5D2374BF30 /* Pods-UnitySdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Example.modulemap"; sourceTree = "<group>"; };
+		F36709D45390C8C8179EDEBA75D4D5F9 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		FD93D0E771A1271B8392D397721669FE /* UnitySdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnitySdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B2E65C866AAAD0D6C10B0BAB216AF5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99B5E38E9285CF6DB22E6CB1CA3B880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92F66CC4A5F2F7CEBEF011807241DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C050181AF88C681D976640BD1FCC41BB /* Foundation.framework in Frameworks */,
+				1F76FE48BAE3021631A8C0EC47758EA0 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBF3A7A7CF3C241F1B7DBA87E32EC5A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -167,246 +227,281 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8C11120A9711EBD2916B0E6D38BC237 /* Frameworks */ = {
+		FA2B77BD60493F5FC93E96FBF71CC836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31274254C15D0D075DEE8A0997946B0D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8A61989B0FA188C2840FDF143D3FE33 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1B26619C3D125E537D65A7961702AE4 /* Foundation.framework in Frameworks */,
+				09F1B9B355EDB71CE6A168FC26011C81 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DA1531E0AAF4AC7435FBB9E0E70B177 /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */,
-				932828F178277609B1D22FB300DB0E9A /* Pods_UnitySdk_Tests.framework */,
-				62813AB3D9E3E9F364FDCFFDDCFAC523 /* UnitySdk.framework */,
+				6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		28192D83D8677A83B01EDEB124F8246D /* Support Files */ = {
+		2E961E3F9AD6C62CD06543F6750F498F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F1F48E40F682962B8BF0DB15A2E9E30 /* UMCAnalytics.xcconfig */,
+				15002DBC3DF36115E16492DB8F6DF875 /* UMCAnalytics.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UMCAnalytics";
 			sourceTree = "<group>";
 		};
-		34282BAAA97115FD5B905B21EB737486 /* UnitySdk */ = {
+		4A80661916E607769FF4ADB542F58375 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D54B430628BB6D9F7F3CB03A28939F17 /* ReplaceMe.m */,
-				B209DF749AF3E5C01E60E1CEBFC5CD27 /* Pod */,
-				3B4EC21AC6D080620D95C0CE0DD5103A /* Support Files */,
+				5965AEA2B680CB868063591D1E9D3B39 /* LICENSE */,
+				D6D72D4F2696A6323A5F9657218D8D8E /* README.md */,
+				FD93D0E771A1271B8392D397721669FE /* UnitySdk.podspec */,
 			);
-			name = UnitySdk;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3B4EC21AC6D080620D95C0CE0DD5103A /* Support Files */ = {
+		4D39EEFD73727F8C1BC064196BB2048D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E143E9AFC643D84AE722A06B5409A72 /* UnitySdk.modulemap */,
-				E84D658A91044B62345A63FAFC7AB246 /* UnitySdk.xcconfig */,
-				C8BC981C60C57DF709D5E09E58FF7BDA /* UnitySdk-dummy.m */,
-				8140BE001D8FF2EAA894E0878D981318 /* UnitySdk-Info.plist */,
-				CC40EE89F417D43BDE6E405433482913 /* UnitySdk-prefix.pch */,
-				BA5A7BE0A5D59C67B7B04D4F557EDCA9 /* UnitySdk-umbrella.h */,
+				78F98DE2FB11ACA560D9F236AD246064 /* UMCCommon.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UnitySdk";
+			path = "../Target Support Files/UMCCommon";
 			sourceTree = "<group>";
 		};
-		4174F5598D66F5FDFDD22812686B7F0C /* Pods */ = {
+		4DE2B91E22A752EBAB150E4E017D1192 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A4C165762606CE9BCDC4FF7A85399E0 /* UMCAnalytics */,
-				5F83951AA2342A7FF4407E844ED08541 /* UMCCommon */,
-				9A574EECEF4E09DA84926C3BF8AB4116 /* UMCCommonLog */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		421B98A90F38D1586FBB9600B21A0580 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34282BAAA97115FD5B905B21EB737486 /* UnitySdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		53BFC5FB97D4B8DC41FC3678D7D2EC72 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				21FA31730C32268BC93D917914153BE3 /* UMCommon.framework */,
+				1DA3066935AE25F35A60082F7A58DD8C /* UMAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F83951AA2342A7FF4407E844ED08541 /* UMCCommon */ = {
+		59662DC5A69139623E402E8F5AFC1D35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53BFC5FB97D4B8DC41FC3678D7D2EC72 /* Frameworks */,
-				CC55C1C3338064E7A767FB00C6F57321 /* Support Files */,
+				23A451480DC76F5A2045D8C991128958 /* UMCommonLog.framework */,
 			);
-			name = UMCCommon;
-			path = UMCCommon;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		61EBA89F883BFA0CE7DD209DF8B66981 /* Pods-UnitySdk_Example */ = {
+		59E7132AEB479DDFF9F7C0F78AB6E1B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6AF89F38A4129210F4C9F3E368BEF249 /* Pods-UnitySdk_Example.modulemap */,
-				34D454FF3968876AADCBEF08CAF37133 /* Pods-UnitySdk_Example-acknowledgements.markdown */,
-				A918A208E538B6AF98E20EA2CCD7278A /* Pods-UnitySdk_Example-acknowledgements.plist */,
-				B3C2AA78C2CA918EA6B3EE8AFD6AD7DA /* Pods-UnitySdk_Example-dummy.m */,
-				B1D7049DA0921DB3FCBCF81F5386CEA1 /* Pods-UnitySdk_Example-Info.plist */,
-				7894ECC2328515FF4CA543E7BBB2648B /* Pods-UnitySdk_Example-resources.sh */,
-				C780C7A9CC109B5D48D19E6ED5F1E76B /* Pods-UnitySdk_Example-umbrella.h */,
-				A0192B3166D71164B4A987722FC477A2 /* Pods-UnitySdk_Example.debug.xcconfig */,
-				E7A5FA7273E0AF005609BD8149C5DFD5 /* Pods-UnitySdk_Example.release.xcconfig */,
+				355DE328625F82A6679C54FE78EC1163 /* SAMKeychain.modulemap */,
+				D7970CB2DE8243F778907950FB3DD157 /* SAMKeychain.xcconfig */,
+				257CFF7A19167072C15C2B25379FA27F /* SAMKeychain-dummy.m */,
+				12EF4C617FAFD53CC7E09E475D9CE2FE /* SAMKeychain-Info.plist */,
+				A4BE2FED7F4B0F5068EEADA271779ED2 /* SAMKeychain-prefix.pch */,
+				C5600846638DB66F47904B3A45A9AB3D /* SAMKeychain-umbrella.h */,
 			);
-			name = "Pods-UnitySdk_Example";
-			path = "Target Support Files/Pods-UnitySdk_Example";
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
 			sourceTree = "<group>";
 		};
-		67485F09680C13B80D70F385F4FD74D1 /* Resources */ = {
+		5FB55C0617D37860422719CBF2A55134 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C96F17F1F35FF634C7BAFC2FFCE06944 /* UMCommonLog.bundle */,
+				AAAE413825D78CA1670AAE5B959A414F /* UMCommonLog.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		7A4C165762606CE9BCDC4FF7A85399E0 /* UMCAnalytics */ = {
+		67AE74135A3B8E992B5E2F215C79CD8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED6E52D5BF62C03D027AE3ACD9CB58DC /* Frameworks */,
-				28192D83D8677A83B01EDEB124F8246D /* Support Files */,
+				AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */,
+				932828F178277609B1D22FB300DB0E9A /* Pods_UnitySdk_Tests.framework */,
+				612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */,
+				62813AB3D9E3E9F364FDCFFDDCFAC523 /* UnitySdk.framework */,
 			);
-			name = UMCAnalytics;
-			path = UMCAnalytics;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		802B62004B2D471B0F771D327D00A2A3 /* Frameworks */ = {
+		6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DA3826B78EDDF4C63A814B518D2C719B /* UMCommonLog.framework */,
+				EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */,
+				40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DCB37CD2FAB5AFA80E451654564FA64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B6E28695A1863EAC3B165A0D47C6A /* UMCommon.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8B8369F623718126562E3B3700481375 /* Targets Support Files */ = {
+		6E79452CCF050BF7288B7BF55D807D6B /* Pods-UnitySdk_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				61EBA89F883BFA0CE7DD209DF8B66981 /* Pods-UnitySdk_Example */,
-				A3A56E0A550ACE5976556C920DAE0955 /* Pods-UnitySdk_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9A574EECEF4E09DA84926C3BF8AB4116 /* UMCCommonLog */ = {
-			isa = PBXGroup;
-			children = (
-				802B62004B2D471B0F771D327D00A2A3 /* Frameworks */,
-				67485F09680C13B80D70F385F4FD74D1 /* Resources */,
-				BB2FD5CC1F89A6182150C431C00369D0 /* Support Files */,
-			);
-			name = UMCCommonLog;
-			path = UMCCommonLog;
-			sourceTree = "<group>";
-		};
-		A3A56E0A550ACE5976556C920DAE0955 /* Pods-UnitySdk_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8CF0E87A4FBA472CBF12DB01DB596064 /* Pods-UnitySdk_Tests.modulemap */,
-				351956E1EDC82BB3231EA8E172FB1060 /* Pods-UnitySdk_Tests-acknowledgements.markdown */,
-				16692D5EDEC013F6704391BB6F2D292E /* Pods-UnitySdk_Tests-acknowledgements.plist */,
-				646764B8FE03940FB8A69404FD4856D3 /* Pods-UnitySdk_Tests-dummy.m */,
-				3D43AE2AEAE5E8BF3EB7C98C3F26BC81 /* Pods-UnitySdk_Tests-Info.plist */,
-				C9CED4B5C86F747DA50C3362A0F0D24E /* Pods-UnitySdk_Tests-umbrella.h */,
-				5DCD18A56E7776189146864C5A11EB73 /* Pods-UnitySdk_Tests.debug.xcconfig */,
-				6623A4A266E3CB4272F6EDB3314BF958 /* Pods-UnitySdk_Tests.release.xcconfig */,
+				63F8F686599CE70CC3A44FC4D062C501 /* Pods-UnitySdk_Tests.modulemap */,
+				5ACB5CD27BD3B380AD772EB6F7E387EB /* Pods-UnitySdk_Tests-acknowledgements.markdown */,
+				DD2CB7CAC0BF32BFE3EC2C4055B78999 /* Pods-UnitySdk_Tests-acknowledgements.plist */,
+				CFBDE5AB38CB014B2C2CE514BB29A068 /* Pods-UnitySdk_Tests-dummy.m */,
+				ED53F63DBF4F5D6DD480B2654F3AD28F /* Pods-UnitySdk_Tests-Info.plist */,
+				0485DDDDF4A2919273AF67D36A06CEAE /* Pods-UnitySdk_Tests-umbrella.h */,
+				9BDF85D405E8001AB7CB70F1AD70439D /* Pods-UnitySdk_Tests.debug.xcconfig */,
+				83BF6B705F569AE2AFAB1F5746815636 /* Pods-UnitySdk_Tests.release.xcconfig */,
 			);
 			name = "Pods-UnitySdk_Tests";
 			path = "Target Support Files/Pods-UnitySdk_Tests";
 			sourceTree = "<group>";
 		};
-		B209DF749AF3E5C01E60E1CEBFC5CD27 /* Pod */ = {
+		6F40782086D0B200FF237A1AC502EB55 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A148FE4B49A0486B79D7340422A40762 /* LICENSE */,
-				571164E6B4D24C63A4FA70D23F2D0D2B /* README.md */,
-				00A4E0EDEBD561FC826DC13320326599 /* UnitySdk.podspec */,
+				8E9F228665CAF42F69E67CF07326EEB4 /* Pods-UnitySdk_Example */,
+				6E79452CCF050BF7288B7BF55D807D6B /* Pods-UnitySdk_Tests */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BB2FD5CC1F89A6182150C431C00369D0 /* Support Files */ = {
+		7D4D3D01AE3BE2B1F6338980F96220EC /* UMCCommonLog */ = {
 			isa = PBXGroup;
 			children = (
-				E91238093897E68892A2E8903916012C /* UMCCommonLog.xcconfig */,
+				59662DC5A69139623E402E8F5AFC1D35 /* Frameworks */,
+				5FB55C0617D37860422719CBF2A55134 /* Resources */,
+				BD380ED4363C536962FE314AB5850AA0 /* Support Files */,
+			);
+			name = UMCCommonLog;
+			path = UMCCommonLog;
+			sourceTree = "<group>";
+		};
+		8E9F228665CAF42F69E67CF07326EEB4 /* Pods-UnitySdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F308DC34F644A7F654AACE5D2374BF30 /* Pods-UnitySdk_Example.modulemap */,
+				6ABB35FB68D15C1CC7C40733531CFD3E /* Pods-UnitySdk_Example-acknowledgements.markdown */,
+				2933376A0965ACAAEDECB77837D51616 /* Pods-UnitySdk_Example-acknowledgements.plist */,
+				990A49103E4D0B6D8BFA10BC720AF55B /* Pods-UnitySdk_Example-dummy.m */,
+				AA02E3E76AF81C49E475133AF69D191D /* Pods-UnitySdk_Example-frameworks.sh */,
+				61C81F0F2FFEAA83A1042633917A1634 /* Pods-UnitySdk_Example-Info.plist */,
+				BCE187E0983322C5EEFCFD1B2758B702 /* Pods-UnitySdk_Example-resources.sh */,
+				39F0AB580CBC7DD81B67D651C24F069B /* Pods-UnitySdk_Example-umbrella.h */,
+				0FD1562CB72DC473E3385393715D30FA /* Pods-UnitySdk_Example.debug.xcconfig */,
+				C363865F7E4BB9A9D4EF500A5F42EDDD /* Pods-UnitySdk_Example.release.xcconfig */,
+			);
+			name = "Pods-UnitySdk_Example";
+			path = "Target Support Files/Pods-UnitySdk_Example";
+			sourceTree = "<group>";
+		};
+		AACE75B5EDA29AD15A8F1DC8DAB21FF4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9A120898A829C119E8B48FE2EBE7CFB /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD380ED4363C536962FE314AB5850AA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C511162801B3109BA1BD1F1CB47861E0 /* UMCCommonLog.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UMCCommonLog";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C0229CF71C0BF119AF7B7251281953F5 /* UMCCommon */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				6DCB37CD2FAB5AFA80E451654564FA64 /* Frameworks */,
+				4D39EEFD73727F8C1BC064196BB2048D /* Support Files */,
 			);
-			name = iOS;
+			name = UMCCommon;
+			path = UMCCommon;
 			sourceTree = "<group>";
 		};
-		CC55C1C3338064E7A767FB00C6F57321 /* Support Files */ = {
+		C38E9A09BCB87D3DDA5358902D116565 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAF7EDD038948DAFCC0C1DA0F7DC2F3E /* UMCCommon.xcconfig */,
+				AFE8617CA83228EED52EE50D7FD220C0 /* UnitySdk.modulemap */,
+				2125AC61485FCEE20C65916BDF2C2BC3 /* UnitySdk.xcconfig */,
+				50BDD8BE5D440AFAECA039DEC82F9A25 /* UnitySdk-dummy.m */,
+				770D4FC6F7C6773339ACF55E539CEFF2 /* UnitySdk-Info.plist */,
+				6516857E5C1644F413E4391673C6238A /* UnitySdk-prefix.pch */,
+				A290E874DE66FF62B5088D7491D84120 /* UnitySdk-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/UMCCommon";
+			path = "Example/Pods/Target Support Files/UnitySdk";
+			sourceTree = "<group>";
+		};
+		CBB6E3ED3A680DF4F447FEB1FE926688 /* UnitySdk */ = {
+			isa = PBXGroup;
+			children = (
+				192928CA46A201B86265A7FE0CF90346 /* PMApplication.h */,
+				560AC450F00BE8E2E7F471BD7870744C /* PMApplication.m */,
+				4B2CBC907CF6E5BFEFF1BAFC5E5B064F /* PMDevice.h */,
+				B2EAFE2D67EEF413ACBE600632432F72 /* PMDevice.m */,
+				4A80661916E607769FF4ADB542F58375 /* Pod */,
+				C38E9A09BCB87D3DDA5358902D116565 /* Support Files */,
+			);
+			name = UnitySdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CBD4B351AC2AB3980FD9A85F78AC5661 /* UMCAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4DE2B91E22A752EBAB150E4E017D1192 /* Frameworks */,
+				2E961E3F9AD6C62CD06543F6750F498F /* Support Files */,
+			);
+			name = UMCAnalytics;
+			path = UMCAnalytics;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				421B98A90F38D1586FBB9600B21A0580 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4174F5598D66F5FDFDD22812686B7F0C /* Pods */,
-				0DA1531E0AAF4AC7435FBB9E0E70B177 /* Products */,
-				8B8369F623718126562E3B3700481375 /* Targets Support Files */,
+				F34B78CF8390270BD9083269F061A92E /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				DCA5C355EA6E7276A010E95EA9AC675C /* Pods */,
+				67AE74135A3B8E992B5E2F215C79CD8C /* Products */,
+				6F40782086D0B200FF237A1AC502EB55 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DCA5C355EA6E7276A010E95EA9AC675C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				E68005998FAF38DE5BF7D2970FB8F003 /* SAMKeychain */,
+				CBD4B351AC2AB3980FD9A85F78AC5661 /* UMCAnalytics */,
+				C0229CF71C0BF119AF7B7251281953F5 /* UMCCommon */,
+				7D4D3D01AE3BE2B1F6338980F96220EC /* UMCCommonLog */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		ED6E52D5BF62C03D027AE3ACD9CB58DC /* Frameworks */ = {
+		E68005998FAF38DE5BF7D2970FB8F003 /* SAMKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				F52E0C1F404675528C9C9230C0549308 /* UMAnalytics.framework */,
+				86983E41AF0B0034CAC5408E0503FF26 /* SAMKeychain.h */,
+				F36709D45390C8C8179EDEBA75D4D5F9 /* SAMKeychain.m */,
+				B8CD4820C181ADACECE6FA7580B9D011 /* SAMKeychainQuery.h */,
+				DEDB2DB28DFC733CA8F7DA5350D181D2 /* SAMKeychainQuery.m */,
+				AACE75B5EDA29AD15A8F1DC8DAB21FF4 /* Resources */,
+				59E7132AEB479DDFF9F7C0F78AB6E1B1 /* Support Files */,
 			);
-			name = Frameworks;
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		F34B78CF8390270BD9083269F061A92E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB6E3ED3A680DF4F447FEB1FE926688 /* UnitySdk */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,19 +515,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C45889CA854450A22ED029B6D9DA53D5 /* Headers */ = {
+		38E5B375B1ABDB5148C326E782F085B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9F742A60B5F7D198C76746D869CAE5 /* Pods-UnitySdk_Example-umbrella.h in Headers */,
+				9054D7229179A6815011DB0982FCA92E /* PMApplication.h in Headers */,
+				D57D16DE136F6AD6E63519B23ABF83A6 /* PMDevice.h in Headers */,
+				19777D27DE2D3FA10BBABE21E93E6736 /* UnitySdk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C973A9704D6CFFF612615F156E832654 /* Headers */ = {
+		ADEF261B253DB102D68EBF8E235DA9FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA9A2B327A00E9622FCE233957F2D33 /* UnitySdk-umbrella.h in Headers */,
+				CCC0CABB1AADB1E1751D6FC4F8CC4DAC /* SAMKeychain-umbrella.h in Headers */,
+				2550EA80C45F86FEFB6B484590C3127B /* SAMKeychain.h in Headers */,
+				0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FAC56B55279E8515832A13240AFCA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2425E67EF1483DAAC8F61B3556BAB5 /* Pods-UnitySdk_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,24 +548,43 @@
 /* Begin PBXNativeTarget section */
 		27BB973E4395BF67546F615FF587BE74 /* Pods-UnitySdk_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60C3F86834247153D85C5A5050831A01 /* Build configuration list for PBXNativeTarget "Pods-UnitySdk_Example" */;
+			buildConfigurationList = 6B2B2564735F15B92CB47BC5C361FDEE /* Build configuration list for PBXNativeTarget "Pods-UnitySdk_Example" */;
 			buildPhases = (
-				C45889CA854450A22ED029B6D9DA53D5 /* Headers */,
-				C914E64C6E33254937BCE5F7196C41FF /* Sources */,
-				E8A61989B0FA188C2840FDF143D3FE33 /* Frameworks */,
-				9890C435DCBA8113BF6A1A68D73C1441 /* Resources */,
+				C2FAC56B55279E8515832A13240AFCA5 /* Headers */,
+				2CA6356617632A0C4662E052017D3891 /* Sources */,
+				B2E65C866AAAD0D6C10B0BAB216AF5D7 /* Frameworks */,
+				BADFB1B93B2ABB07E622B0413CE85ABA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59E845D181843F0BD8C2294317E57204 /* PBXTargetDependency */,
-				91C2B8477692356AE078CAE2E77AB64E /* PBXTargetDependency */,
-				8C021E14B9C9144E108AED5A494A91B3 /* PBXTargetDependency */,
-				BA72E2F2330B67CBDCC1E20475FF384F /* PBXTargetDependency */,
+				D26802EA7258401FCC9512371E99B4A9 /* PBXTargetDependency */,
+				38D4F5C030A11DCC25EE42303A504715 /* PBXTargetDependency */,
+				BEC87D020BBF6E7E5E8F91956429A58E /* PBXTargetDependency */,
+				EC982A198F303565168359BFBEB09C3B /* PBXTargetDependency */,
+				1E8A2A4FEAF0D707D10ED672B87BD5C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-UnitySdk_Example";
 			productName = "Pods-UnitySdk_Example";
 			productReference = AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0BF722BE8E60C7D236665B49E830FF /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				ADEF261B253DB102D68EBF8E235DA9FF /* Headers */,
+				A63338510D2B653EDCDA5C95CBFCA292 /* Sources */,
+				C92F66CC4A5F2F7CEBEF011807241DFE /* Frameworks */,
+				E057DD10B33CF59170DCD03B6F66E50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C49BEA6BE7AB1C5074074C816A539375 /* Pods-UnitySdk_Tests */ = {
@@ -482,19 +608,20 @@
 		};
 		D87E26324D77CB34D7783795202704ED /* UnitySdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E7B1DD48F61470C07E535AA7810FB33 /* Build configuration list for PBXNativeTarget "UnitySdk" */;
+			buildConfigurationList = 13AF5CDA4126520261D1EA841C35F24B /* Build configuration list for PBXNativeTarget "UnitySdk" */;
 			buildPhases = (
-				C973A9704D6CFFF612615F156E832654 /* Headers */,
-				9A28BA0AE586FAE17940BBF220B01855 /* Sources */,
-				D8C11120A9711EBD2916B0E6D38BC237 /* Frameworks */,
-				A4AF3ABA3B51F6EF3F68D9E7B8A59ED1 /* Resources */,
+				38E5B375B1ABDB5148C326E782F085B9 /* Headers */,
+				3CA29CD0A01A03984F3119791B813FB8 /* Sources */,
+				FA2B77BD60493F5FC93E96FBF71CC836 /* Frameworks */,
+				866C27461F710CFA85D3CAEEE9615BAE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1CE9961E0EBBEFA97C4CC25CCCF9C97 /* PBXTargetDependency */,
-				4EE729799A6C53303FAADFEB90F8E45C /* PBXTargetDependency */,
-				02862525AF5FA02F1C36CB991903EE15 /* PBXTargetDependency */,
+				4AE3C0816200AEBAD5E5D2E7967E4C83 /* PBXTargetDependency */,
+				D917F1529E2ADDD6BEA917F97CE92AD9 /* PBXTargetDependency */,
+				F1F9E5E06BC23151F8354789F075F206 /* PBXTargetDependency */,
+				FDFBD3F6829C9E76E3241494FE9CD183 /* PBXTargetDependency */,
 			);
 			name = UnitySdk;
 			productName = UnitySdk;
@@ -518,12 +645,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0DA1531E0AAF4AC7435FBB9E0E70B177 /* Products */;
+			productRefGroup = 67AE74135A3B8E992B5E2F215C79CD8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				27BB973E4395BF67546F615FF587BE74 /* Pods-UnitySdk_Example */,
 				C49BEA6BE7AB1C5074074C816A539375 /* Pods-UnitySdk_Tests */,
+				5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */,
 				FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */,
 				6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */,
 				6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */,
@@ -533,6 +661,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		866C27461F710CFA85D3CAEEE9615BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8FF8296068AE230C6F684D1B0CCF172F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -540,23 +675,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9890C435DCBA8113BF6A1A68D73C1441 /* Resources */ = {
+		BADFB1B93B2ABB07E622B0413CE85ABA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4AF3ABA3B51F6EF3F68D9E7B8A59ED1 /* Resources */ = {
+		E057DD10B33CF59170DCD03B6F66E50E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48749968F49ABC19B218B6A650DA2EFA /* SAMKeychain.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2CA6356617632A0C4662E052017D3891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6ABD2C6CAC4FB8FCC68BD91397CDEEB /* Pods-UnitySdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA29CD0A01A03984F3119791B813FB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF16C3B1A17E8AC3C57A114D661AD102 /* PMApplication.m in Sources */,
+				0D588EDFA9B818DE10DCE553E911C76E /* PMDevice.m in Sources */,
+				F03964366DA793BA6F7883FE08CD9B8E /* UnitySdk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A1C3B0F6678889709CA2C8ED6BA813D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,61 +719,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A28BA0AE586FAE17940BBF220B01855 /* Sources */ = {
+		A63338510D2B653EDCDA5C95CBFCA292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289FE16A7E891F91547B362D2F5B21A8 /* ReplaceMe.m in Sources */,
-				BB66C32D4FBE8956B098A14D948FCBD8 /* UnitySdk-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C914E64C6E33254937BCE5F7196C41FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39C2BADFD449193302433A1794E826D5 /* Pods-UnitySdk_Example-dummy.m in Sources */,
+				A44705A450B7BC75180A9FC266CCFB3D /* SAMKeychain-dummy.m in Sources */,
+				180B0BC996F28420A22940BB965F2687 /* SAMKeychain.m in Sources */,
+				06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		02862525AF5FA02F1C36CB991903EE15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCCommonLog;
-			target = 6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */;
-			targetProxy = DBF7AD5DE2AB94EAF94B2CE2758F9A8C /* PBXContainerItemProxy */;
-		};
-		4EE729799A6C53303FAADFEB90F8E45C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCCommon;
-			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
-			targetProxy = 394B29485972C31368BB88920761653A /* PBXContainerItemProxy */;
-		};
-		59E845D181843F0BD8C2294317E57204 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCAnalytics;
-			target = FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */;
-			targetProxy = C786B515B2A686C983D9021FB9E5FC16 /* PBXContainerItemProxy */;
-		};
-		8C021E14B9C9144E108AED5A494A91B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCCommonLog;
-			target = 6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */;
-			targetProxy = F72036DD278C121F66944EAABD56DD4B /* PBXContainerItemProxy */;
-		};
-		91C2B8477692356AE078CAE2E77AB64E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UMCCommon;
-			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
-			targetProxy = 8AF7364B02C9088EB540A6D88E75A8B9 /* PBXContainerItemProxy */;
-		};
-		BA72E2F2330B67CBDCC1E20475FF384F /* PBXTargetDependency */ = {
+		1E8A2A4FEAF0D707D10ED672B87BD5C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UnitySdk;
 			target = D87E26324D77CB34D7783795202704ED /* UnitySdk */;
-			targetProxy = 70C711EB81DF01052C5118F9F92DFF8B /* PBXContainerItemProxy */;
+			targetProxy = 5FC0A3A4927DBBB5F1DC5AEC798398E7 /* PBXContainerItemProxy */;
+		};
+		38D4F5C030A11DCC25EE42303A504715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCAnalytics;
+			target = FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */;
+			targetProxy = F23A57FAB6C0F04976482A4E995D848C /* PBXContainerItemProxy */;
+		};
+		4AE3C0816200AEBAD5E5D2E7967E4C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = FA67B63A2DE78E3A81B9B9D1D9C273B2 /* PBXContainerItemProxy */;
+		};
+		BEC87D020BBF6E7E5E8F91956429A58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 8CDB24E0010DBFAAEEF6CF2D5B30BA88 /* PBXContainerItemProxy */;
+		};
+		D26802EA7258401FCC9512371E99B4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 3A07F2F78BF4C6AAA9BB945689122978 /* PBXContainerItemProxy */;
 		};
 		D6F37A14E44787E5115BD54D5A2580C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -627,11 +768,17 @@
 			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
 			targetProxy = 53023D3FFE4E5A2884C7F8871827AE08 /* PBXContainerItemProxy */;
 		};
-		E1CE9961E0EBBEFA97C4CC25CCCF9C97 /* PBXTargetDependency */ = {
+		D917F1529E2ADDD6BEA917F97CE92AD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UMCAnalytics;
 			target = FD2E8643412994484A50DA7D3BFB1EFC /* UMCAnalytics */;
-			targetProxy = 331A1FA79819801269DB8CC128B3BB07 /* PBXContainerItemProxy */;
+			targetProxy = 30D18C76837F1F6B20B931CA020D7EBC /* PBXContainerItemProxy */;
+		};
+		EC982A198F303565168359BFBEB09C3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommonLog;
+			target = 6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */;
+			targetProxy = 7CA0368C4FADCCE08B1F2AFF82DF26D6 /* PBXContainerItemProxy */;
 		};
 		ED865ED6EA27CC627511BBF238ACAD56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -639,46 +786,24 @@
 			target = 27BB973E4395BF67546F615FF587BE74 /* Pods-UnitySdk_Example */;
 			targetProxy = 1ACCA3E4E74FFFFFA33621D217CE427A /* PBXContainerItemProxy */;
 		};
+		F1F9E5E06BC23151F8354789F075F206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommon;
+			target = 6F6B630FA5213AB083E7CEF1F986FE44 /* UMCCommon */;
+			targetProxy = 636198149D4D311DA9EA99469D54ABC0 /* PBXContainerItemProxy */;
+		};
+		FDFBD3F6829C9E76E3241494FE9CD183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCCommonLog;
+			target = 6075E73CE9761233A64B697DA4780D60 /* UMCCommonLog */;
+			targetProxy = C8FDD75D0C3C6B788EFD025652D7AF2A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A9F6E300FFB3462926E6B601EF6286C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7A5FA7273E0AF005609BD8149C5DFD5 /* Pods-UnitySdk_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0FA8F0DD743121A0380C46915B94DFC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91238093897E68892A2E8903916012C /* UMCCommonLog.xcconfig */;
+			baseConfigurationReference = C511162801B3109BA1BD1F1CB47861E0 /* UMCCommonLog.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -692,7 +817,7 @@
 		};
 		258154CEB5A6EF5C276F0809574ED1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F1F48E40F682962B8BF0DB15A2E9E30 /* UMCAnalytics.xcconfig */;
+			baseConfigurationReference = 15002DBC3DF36115E16492DB8F6DF875 /* UMCAnalytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -706,7 +831,7 @@
 		};
 		3B0CD83C8BFAB29266589E978AB64406 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E91238093897E68892A2E8903916012C /* UMCCommonLog.xcconfig */;
+			baseConfigurationReference = C511162801B3109BA1BD1F1CB47861E0 /* UMCCommonLog.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -777,9 +902,9 @@
 			};
 			name = Release;
 		};
-		574158C2EAED11A9A7ACB4198ECF4A90 /* Debug */ = {
+		57A56567F04880CBDE3C78D0EDD7D655 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E84D658A91044B62345A63FAFC7AB246 /* UnitySdk.xcconfig */;
+			baseConfigurationReference = D7970CB2DE8243F778907950FB3DD157 /* SAMKeychain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,15 +915,46 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
-				PRODUCT_MODULE_NAME = UnitySdk;
-				PRODUCT_NAME = UnitySdk;
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ADE8AE48BAF85180136049D64058C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7970CB2DE8243F778907950FB3DD157 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/SAMKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -873,42 +1029,9 @@
 			};
 			name = Debug;
 		};
-		94847058A9990DD6395ACEE9566C1EA5 /* Release */ = {
+		A078D843A8823B5078E410FE87AC57D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E84D658A91044B62345A63FAFC7AB246 /* UnitySdk.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
-				PRODUCT_MODULE_NAME = UnitySdk;
-				PRODUCT_NAME = UnitySdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0D8A1B8E6CD2C2406AB656AA861A824 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0192B3166D71164B4A987722FC477A2 /* Pods-UnitySdk_Example.debug.xcconfig */;
+			baseConfigurationReference = C363865F7E4BB9A9D4EF500A5F42EDDD /* Pods-UnitySdk_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -934,14 +1057,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B8D82AA868BD0D3EA66F054CADA00383 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAF7EDD038948DAFCC0C1DA0F7DC2F3E /* UMCCommon.xcconfig */;
+			baseConfigurationReference = 78F98DE2FB11ACA560D9F236AD246064 /* UMCCommon.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -955,7 +1079,7 @@
 		};
 		BB1CF87A8BA54DF2F1E6497E7AFC947F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6623A4A266E3CB4272F6EDB3314BF958 /* Pods-UnitySdk_Tests.release.xcconfig */;
+			baseConfigurationReference = 83BF6B705F569AE2AFAB1F5746815636 /* Pods-UnitySdk_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -987,9 +1111,42 @@
 			};
 			name = Release;
 		};
+		C7303C6F86ED9655C1F3D0F6CA8F460C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2125AC61485FCEE20C65916BDF2C2BC3 /* UnitySdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
+				PRODUCT_MODULE_NAME = UnitySdk;
+				PRODUCT_NAME = UnitySdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E43B1176DC74FDDED85B23ECEB5787B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DCD18A56E7776189146864C5A11EB73 /* Pods-UnitySdk_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9BDF85D405E8001AB7CB70F1AD70439D /* Pods-UnitySdk_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1022,7 +1179,7 @@
 		};
 		E9B3C2E6E5264DA4F664E1A0AAFB547F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAF7EDD038948DAFCC0C1DA0F7DC2F3E /* UMCCommon.xcconfig */;
+			baseConfigurationReference = 78F98DE2FB11ACA560D9F236AD246064 /* UMCCommon.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1033,9 +1190,74 @@
 			};
 			name = Debug;
 		};
+		ECD14DAA22FAFBB3C73B3FD9658324D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD1562CB72DC473E3385393715D30FA /* Pods-UnitySdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F156F58D4A8BCA984D87627C95FCAE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2125AC61485FCEE20C65916BDF2C2BC3 /* UnitySdk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
+				PRODUCT_MODULE_NAME = UnitySdk;
+				PRODUCT_NAME = UnitySdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F35E39D7A81801ABAD0FDD9A23CED888 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F1F48E40F682962B8BF0DB15A2E9E30 /* UMCAnalytics.xcconfig */;
+			baseConfigurationReference = 15002DBC3DF36115E16492DB8F6DF875 /* UMCAnalytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1058,11 +1280,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E7B1DD48F61470C07E535AA7810FB33 /* Build configuration list for PBXNativeTarget "UnitySdk" */ = {
+		13AF5CDA4126520261D1EA841C35F24B /* Build configuration list for PBXNativeTarget "UnitySdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574158C2EAED11A9A7ACB4198ECF4A90 /* Debug */,
-				94847058A9990DD6395ACEE9566C1EA5 /* Release */,
+				F156F58D4A8BCA984D87627C95FCAE5D /* Debug */,
+				C7303C6F86ED9655C1F3D0F6CA8F460C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1085,11 +1307,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		60C3F86834247153D85C5A5050831A01 /* Build configuration list for PBXNativeTarget "Pods-UnitySdk_Example" */ = {
+		6B2B2564735F15B92CB47BC5C361FDEE /* Build configuration list for PBXNativeTarget "Pods-UnitySdk_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0D8A1B8E6CD2C2406AB656AA861A824 /* Debug */,
-				0A9F6E300FFB3462926E6B601EF6286C /* Release */,
+				ECD14DAA22FAFBB3C73B3FD9658324D4 /* Debug */,
+				A078D843A8823B5078E410FE87AC57D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0BF722BE8E60C7D236665B49E830FF /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADE8AE48BAF85180136049D64058C50 /* Debug */,
+				57A56567F04880CBDE3C78D0EDD7D655 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

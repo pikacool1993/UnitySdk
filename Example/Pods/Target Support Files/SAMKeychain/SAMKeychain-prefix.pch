@@ -10,9 +10,3 @@
 #endif
 #endif
 
-#import "PMApplication.h"
-#import "PMDevice.h"
-
-FOUNDATION_EXPORT double UnitySdkVersionNumber;
-FOUNDATION_EXPORT const unsigned char UnitySdkVersionString[];
-

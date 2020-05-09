@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001B748824652186001792CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 001B748424652186001792CB /* .gitkeep */; };
-		001B748A24652186001792CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 001B748724652186001792CB /* .gitkeep */; };
-		001B74A124656E2B001792CB /* PMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B74A024656E2B001792CB /* PMApplication.m */; };
-		001B74A424656E3E001792CB /* PMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 001B74A324656E3E001792CB /* PMDevice.m */; };
 		29F24C6A71AE6CF107C3DC20 /* Pods_UnitySdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA5145071B6937AE9449115 /* Pods_UnitySdk_Tests.framework */; };
 		52664B32E2046CFD2F8C0EF1 /* Pods_UnitySdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -41,12 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001B748424652186001792CB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		001B748724652186001792CB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		001B749F24656E2B001792CB /* PMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMApplication.h; sourceTree = "<group>"; };
-		001B74A024656E2B001792CB /* PMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMApplication.m; sourceTree = "<group>"; };
-		001B74A224656E3E001792CB /* PMDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMDevice.h; sourceTree = "<group>"; };
-		001B74A324656E3E001792CB /* PMDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMDevice.m; sourceTree = "<group>"; };
 		2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D54F7D9C747B03F413B94D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		466E214ACB696AE4621C79A2 /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,44 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001B748224652186001792CB /* UnitySdk */ = {
-			isa = PBXGroup;
-			children = (
-				001B748324652186001792CB /* Classes */,
-				001B748624652186001792CB /* Assets */,
-			);
-			name = UnitySdk;
-			path = ../UnitySdk;
-			sourceTree = "<group>";
-		};
-		001B748324652186001792CB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				001B749824656AC0001792CB /* Utils */,
-				001B748424652186001792CB /* .gitkeep */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		001B748624652186001792CB /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				001B748724652186001792CB /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		001B749824656AC0001792CB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				001B749F24656E2B001792CB /* PMApplication.h */,
-				001B74A024656E2B001792CB /* PMApplication.m */,
-				001B74A224656E3E001792CB /* PMDevice.h */,
-				001B74A324656E3E001792CB /* PMDevice.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		580507FE78C783EBEAE83D26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,7 +109,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				001B748224652186001792CB /* UnitySdk */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for UnitySdk */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -257,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				863848269A7E856501D573AD /* [CP] Copy Pods Resources */,
+				08E5EFD0015099A803CFA705 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,8 +283,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				001B748824652186001792CB /* .gitkeep in Resources */,
-				001B748A24652186001792CB /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -349,6 +299,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		08E5EFD0015099A803CFA705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0E42681EACB5A45AC2466A8F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,8 +389,6 @@
 				6003F59E195388D20070C39A /* GUAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GUViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				001B74A424656E3E001792CB /* PMDevice.m in Sources */,
-				001B74A124656E2B001792CB /* PMApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
