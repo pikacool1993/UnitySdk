@@ -42,6 +42,13 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)deviceName;
 
 /**
+* 获取当前设备ID （自己生成）
+* e.g.
+@return 设备ID
+*/
++ (NSString *)deviceId;
+
+/**
 * 获取当前的APP的运行的手机系统版本号
 * e.g. @"9.3.5"
 @return 系统版本

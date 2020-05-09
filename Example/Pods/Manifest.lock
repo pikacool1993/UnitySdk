@@ -4,7 +4,7 @@ PODS:
     - UMCCommon
   - UMCCommon (2.1.1)
   - UMCCommonLog (1.0.0)
-  - UnitySdk (0.0.2.4):
+  - UnitySdk (0.0.2.5):
     - SAMKeychain
     - UMCAnalytics
     - UMCCommon
@@ -29,7 +29,7 @@ SPEC CHECKSUMS:
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
   UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
-  UnitySdk: fa476157ab8eb25c2cafb36681c76f7bef191848
+  UnitySdk: 0ba2192179f2b361ba11b1ed67c1811699158917
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 

@@ -7,7 +7,7 @@
 //
 
 #import "GUViewController.h"
-#import <UnitySdk/PMDevice.h>
+#import <PMDevice.h>
 
 @interface GUViewController ()
 

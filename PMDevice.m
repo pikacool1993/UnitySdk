@@ -7,7 +7,9 @@
 //
 
 #import "PMDevice.h"
+#import "PMApplication.h"
 
+#import <SAMKeychain/SAMKeychain.h>
 #import <ifaddrs.h>
 #import <arpa/inet.h>
 #import <net/if.h>
@@ -60,6 +62,23 @@
 
 + (NSString *)deviceName {
     return [[UIDevice currentDevice] name];
+}
+
++ (NSString *)deviceId {
+    NSString *UDID = [SAMKeychain passwordForService:[PMApplication applicationBundleId] account:@"UDID"];
+    if (UDID && UDID.length > 0) {
+        // 存在UDID
+        return UDID;
+    } else {
+        // 生成新设备号
+        NSString *newUDID = [NSUUID UUID].UUIDString.lowercaseString;
+        BOOL isSaved = [SAMKeychain setPassword:newUDID forService:[PMApplication applicationBundleId] account:@"UDID"];
+        if (!isSaved) {
+            return [UIDevice currentDevice].identifierForVendor.UUIDString.lowercaseString;
+        } else {
+            return newUDID;
+        }
+    }
 }
 
 + (NSString *)deviceSystenVersion {
