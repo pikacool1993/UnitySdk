@@ -62,9 +62,26 @@ NS_ASSUME_NONNULL_BEGIN
 */
 + (NSString *)deviceModel;
 
+/**
+* 获取当前设备语言
+* e.g. @"en_Zh"
+@return 设备语言
+*/
 + (NSString *)deviceLanguage;
 
+/**
+* 获取当前设备局域网IP
+* e.g. @"192.168.1.1"
+@return 局域网IP
+*/
 + (NSString *)deviceLocalIP;
+
+/**
+* 获取当前设备是否使用网络代理
+* e.g. @"NO"
+@return 是否使用网络代理
+*/
++ (BOOL)isUseProxy;
 
 @end
 

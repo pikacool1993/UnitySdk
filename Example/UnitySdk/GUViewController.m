@@ -7,6 +7,7 @@
 //
 
 #import "GUViewController.h"
+#import "PMDevice.h"
 
 @interface GUViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"=======> \n %@", [PMDevice deviceLocalIP]);
 }
 
 - (void)didReceiveMemoryWarning
