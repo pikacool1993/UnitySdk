@@ -13,6 +13,9 @@
 #import "UAppDelegateListener.h"
 #import "ULifeCycleListener.h"
 #import "UUnityViewControllerListener.h"
+#import "UApplication.h"
+#import "UBridge.h"
+#import "UKit.h"
 #import "PMApplication.h"
 #import "PMDevice.h"
 

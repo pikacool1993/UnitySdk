@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		00E93DF22466B20F00B9B69D /* UnitySdk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-Prefix.pch"; sourceTree = "<group>"; };
+		00E93DFE2466B91800B9B69D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D54F7D9C747B03F413B94D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		466E214ACB696AE4621C79A2 /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitySdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +131,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00E93DFE2466B91800B9B69D /* libc++.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
