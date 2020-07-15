@@ -1,0 +1,18 @@
+{
+    "applestore_id": "",
+    "ironsource": {
+        "app_key": "cd225865",
+        "ad_units": {
+            "rewardedvideo": {},
+            "interstitial": {},
+            "offerwall": {},
+            "banner": {}
+        }
+    },
+    "facebook": {
+        "app_key": ""
+    },
+    "appsflyer": {
+        "app_key": ""
+    }
+}

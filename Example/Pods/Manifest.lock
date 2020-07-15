@@ -1,35 +1,26 @@
 PODS:
+  - IronSourceSDK (6.17.0)
   - SAMKeychain (1.5.3)
-  - UMCAnalytics (6.0.5):
-    - UMCCommon
-  - UMCCommon (2.1.1)
-  - UMCCommonLog (1.0.0)
-  - UnitySdk (0.0.2.6):
+  - UnitySdk (0.0.3):
+    - IronSourceSDK (~> 6.17.0.0)
     - SAMKeychain
-    - UMCAnalytics
-    - UMCCommon
-    - UMCCommonLog
 
 DEPENDENCIES:
   - UnitySdk (from `../`)
 
 SPEC REPOS:
   trunk:
+    - IronSourceSDK
     - SAMKeychain
-    - UMCAnalytics
-    - UMCCommon
-    - UMCCommonLog
 
 EXTERNAL SOURCES:
   UnitySdk:
     :path: "../"
 
 SPEC CHECKSUMS:
+  IronSourceSDK: 88dde749fcc6dd515191ddfa32dbe6b2a99b29d3
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
-  UMCCommon: 971f324a5a99c9d662ae040a815e7e3d7ef8b2a8
-  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
-  UnitySdk: 058411cd461128425f105960850aa4b6bb095279
+  UnitySdk: d6481af626ca759dab065cb6b66e1965f39e6434
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 

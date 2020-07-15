@@ -1,6 +1,6 @@
 {
   "name": "UnitySdk",
-  "version": "0.0.2.6",
+  "version": "0.0.3",
   "summary": "Unity Game SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pikacool1993/UnitySdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pikacool1993/UnitySdk.git",
-    "tag": "0.0.2.6"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,14 +25,8 @@
     "SAMKeychain": [
 
     ],
-    "UMCCommon": [
-
-    ],
-    "UMCAnalytics": [
-
-    ],
-    "UMCCommonLog": [
-
+    "IronSourceSDK": [
+      "~> 6.17.0.0"
     ]
   }
 }

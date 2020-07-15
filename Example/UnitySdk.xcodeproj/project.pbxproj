@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00086F1224BEEF7A009B539E /* unity_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 00086F1124BEEF7A009B539E /* unity_config.json */; };
 		29F24C6A71AE6CF107C3DC20 /* Pods_UnitySdk_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA5145071B6937AE9449115 /* Pods_UnitySdk_Tests.framework */; };
 		52664B32E2046CFD2F8C0EF1 /* Pods_UnitySdk_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00086F1124BEEF7A009B539E /* unity_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = unity_config.json; sourceTree = "<group>"; };
 		00E93DF22466B20F00B9B69D /* UnitySdk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-Prefix.pch"; sourceTree = "<group>"; };
 		00E93DFE2466B91800B9B69D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		2518E20BBBF872CA5EB7FE3B /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +155,7 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				00086F1124BEEF7A009B539E /* unity_config.json */,
 			);
 			name = "Example for UnitySdk";
 			path = UnitySdk;
@@ -209,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				863848269A7E856501D573AD /* [CP] Copy Pods Resources */,
 				08E5EFD0015099A803CFA705 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -286,6 +288,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				00086F1224BEEF7A009B539E /* unity_config.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,24 +342,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		863848269A7E856501D573AD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-resources.sh",
-				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitySdk_Example/Pods-UnitySdk_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB9988D1E2EC35BF946B4FF4 /* [CP] Check Pods Manifest.lock */ = {
