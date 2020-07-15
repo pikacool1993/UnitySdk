@@ -20,8 +20,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		00086F1724BEF93E009B539E /* UConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 00086F1524BEF93E009B539E /* UConfig.h */; };
-		00086F1824BEF93E009B539E /* UConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00086F1624BEF93E009B539E /* UConfig.m */; };
 		06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB3A41E9F1C8BCB93EF1E98857DB5BC /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 10ED11C608C1F6A746C066BE168C081E /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15E53DCA190741C23316587F587FC4CF /* ULifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 818F5C6DD4AB1416D5BD6157F1554F4C /* ULifeCycleListener.mm */; };
@@ -104,8 +102,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00086F1524BEF93E009B539E /* UConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UConfig.h; sourceTree = "<group>"; };
-		00086F1624BEF93E009B539E /* UConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UConfig.m; sourceTree = "<group>"; };
+		00086F1A24BF07D7009B539E /* UConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UConfig.m; sourceTree = "<group>"; };
+		00086F1B24BF07D7009B539E /* UConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UConfig.h; sourceTree = "<group>"; };
 		0432BA3B0DB67D60C539A3FD59F8BF02 /* ISConfigurations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = IronSource/IronSource.framework/Versions/A/Headers/ISConfigurations.h; sourceTree = "<group>"; };
 		078EB730D15C19A79A1A307047E15CA0 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
 		07F061F9E05B5DF93FE262B1F7EC4D8B /* PMDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PMDevice.m; sourceTree = "<group>"; };
@@ -236,13 +234,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		00086F1424BEF8EF009B539E /* Config */ = {
+		00086F1924BF07D7009B539E /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				00086F1524BEF93E009B539E /* UConfig.h */,
-				00086F1624BEF93E009B539E /* UConfig.m */,
+				00086F1A24BF07D7009B539E /* UConfig.m */,
+				00086F1B24BF07D7009B539E /* UConfig.h */,
 			);
-			path = Config;
+			name = Config;
+			path = UnitySdk/Classes/Config;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -301,7 +300,7 @@
 		47A3067733487EC9CD382BFCC53892F1 /* UnitySdk */ = {
 			isa = PBXGroup;
 			children = (
-				00086F1424BEF8EF009B539E /* Config */,
+				00086F1924BF07D7009B539E /* Config */,
 				2FA72E5865413759FC91ADF5AD459148 /* Plugins */,
 				7C68C9138E886776A585FA1F996FA3DF /* Pod */,
 				D2F045072682BBF9C966369D1B53EE13 /* Support Files */,
@@ -538,7 +537,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00086F1724BEF93E009B539E /* UConfig.h in Headers */,
 				A11B01E82E58B08320F0DC15586D44D4 /* Pods-UnitySdk_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,7 +690,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8950EF0CB871ADEECD8C9EF395B3E70 /* Pods-UnitySdk_Example-dummy.m in Sources */,
-				00086F1824BEF93E009B539E /* UConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
