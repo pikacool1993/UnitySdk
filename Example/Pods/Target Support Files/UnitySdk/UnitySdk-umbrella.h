@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UConfig.h"
 #import "UAppDelegateListener.h"
 #import "ULifeCycleListener.h"
 #import "UUnityViewControllerListener.h"
