@@ -6,7 +6,6 @@
 //
 
 #import "UApplication.h"
-#import <UMCommon/UMCommon.h>
 
 @interface UApplication ()
 
@@ -28,7 +27,7 @@
 
 #pragma mark - LifeCycle
 - (void)applicationFinishLaunching:(UIApplication *)application {
-    [UMConfigure initWithAppkey:@"5eb4b2a9570df3494c000041" channel:@"App Store"];
+    
 }
 
 - (void)applicationBecomeActive:(UIApplication *)application {

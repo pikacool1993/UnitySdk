@@ -43,7 +43,5 @@ TODO: Add long description of the pod here.
   
   s.dependency 'SAMKeychain'
   
-  s.dependency 'UMCCommon'
-  s.dependency 'UMCAnalytics'
-  s.dependency 'UMCCommonLog'
+  s.dependency 'IronSourceSDK', '~> 6.17.0.0'
 end
