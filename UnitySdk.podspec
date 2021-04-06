@@ -41,7 +41,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.libraries = 'c++'
   
+  s.dependency 'AppLovinSDK'
   s.dependency 'SAMKeychain'
-  
-  s.dependency 'IronSourceSDK', '~> 6.17.0.0'
 end

@@ -11,6 +11,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UBridge : NSObject
 
+extern "C" {
+    char* _ApplicationName();
+    char* _ApplicationBundleId();
+    char* _ApplicationVersion();
+    char* _ApplicationBuildVersion();
+    bool _IsFullScreen();
+    bool _IsJailbreak();
+}
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -21,6 +21,20 @@
 
 @end
 
+@implementation UAppLovinMaxConfig
+
++ (instancetype)initWithDictionary:(NSDictionary *)dictionary {
+    UAppLovinMaxConfig *config = [[UAppLovinMaxConfig alloc] init];
+    [config setValuesForKeysWithDictionary:dictionary];
+    return config;
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key {
+    
+}
+
+@end
+
 @implementation UFacebookConfig
 
 + (instancetype)initWithDictionary:(NSDictionary *)dictionary {

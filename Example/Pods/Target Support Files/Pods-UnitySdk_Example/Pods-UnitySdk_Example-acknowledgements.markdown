@@ -1,9 +1,14 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## IronSourceSDK
+## AppLovinSDK
 
-https://platform.ironsrc.com/partners/terms-and-conditions-new-user
+
+Copyright 2018 AppLovin Corp. All rights reserved.
+
+The AppLovin SDK is available under a commercial license (https://www.applovin.com/eula).
+
+
 
 ## SAMKeychain
 

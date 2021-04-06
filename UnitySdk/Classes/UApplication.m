@@ -7,7 +7,6 @@
 
 #import "UApplication.h"
 #import "UConfig.h"
-#import <IronSource/IronSource.h>
 
 @interface UApplication ()
 @property (nonatomic, strong) UConfig *config;
@@ -49,10 +48,7 @@
 
 #pragma mark - LifeCycle
 - (void)applicationFinishLaunching:(UIApplication *)application {
-    // Set IronSource Delegate
     
-    // Init IronSource
-    [IronSource initWithAppKey:self.config.ironsource.app_key adUnits:self.config.ironsource.ad_units.allKeys];
 }
 
 - (void)applicationBecomeActive:(UIApplication *)application {

@@ -21,6 +21,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface UAppLovinMaxConfig : NSObject
+
+@property (nonatomic, strong) NSString *app_key;
+
+@property (nonatomic, strong) NSString *ad_units_rewardedvideo;
+
+@property (nonatomic, strong) NSString *ad_units_interstitial;
+
+@property (nonatomic, strong) NSString *ad_units_offerwall;
+
+@property (nonatomic, strong) NSString *ad_units_banner;
+
++ (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+@end
+
 @interface UFacebookConfig : NSObject
 
 @property (nonatomic, strong) NSString *app_key;

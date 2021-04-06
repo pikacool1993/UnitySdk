@@ -22,11 +22,11 @@
   "static_framework": true,
   "libraries": "c++",
   "dependencies": {
-    "SAMKeychain": [
+    "AppLovinSDK": [
 
     ],
-    "IronSourceSDK": [
-      "~> 6.17.0.0"
+    "SAMKeychain": [
+
     ]
   }
 }

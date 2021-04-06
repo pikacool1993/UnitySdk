@@ -1,8 +1,8 @@
 PODS:
-  - IronSourceSDK (6.17.0)
+  - AppLovinSDK (5.1.2)
   - SAMKeychain (1.5.3)
   - UnitySdk (0.0.4):
-    - IronSourceSDK (~> 6.17.0.0)
+    - AppLovinSDK
     - SAMKeychain
 
 DEPENDENCIES:
@@ -10,7 +10,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - IronSourceSDK
+    - AppLovinSDK
     - SAMKeychain
 
 EXTERNAL SOURCES:
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IronSourceSDK: 88dde749fcc6dd515191ddfa32dbe6b2a99b29d3
+  AppLovinSDK: 5a6c0ab59aaed00da1bc95d54e2065266ab3b379
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  UnitySdk: 6c3345fbca4c0cdcb49c5fd4748922ab5759b619
+  UnitySdk: 05bf7f879d65125e017ff8830b0995396843c451
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.1
