@@ -1,8 +1,19 @@
 PODS:
   - AppLovinSDK (5.1.2)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
   - SAMKeychain (1.5.3)
-  - UnitySdk (0.0.4):
+  - UnitySdk (0.0.4.1):
     - AppLovinSDK
+    - FBSDKLoginKit
     - SAMKeychain
 
 DEPENDENCIES:
@@ -11,6 +22,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AppLovinSDK
+    - FBSDKCoreKit
+    - FBSDKLoginKit
     - SAMKeychain
 
 EXTERNAL SOURCES:
@@ -19,8 +32,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppLovinSDK: 5a6c0ab59aaed00da1bc95d54e2065266ab3b379
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  UnitySdk: 05bf7f879d65125e017ff8830b0995396843c451
+  UnitySdk: 2034a6a8db3b9556450b01c1b7437a014bd7697e
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 

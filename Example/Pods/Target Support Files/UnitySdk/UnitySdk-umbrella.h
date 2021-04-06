@@ -17,8 +17,8 @@
 #import "UApplication.h"
 #import "UBridge.h"
 #import "UKit.h"
-#import "PMApplication.h"
-#import "PMDevice.h"
+#import "BitchApplication.h"
+#import "BitchDevice.h"
 
 FOUNDATION_EXPORT double UnitySdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char UnitySdkVersionString[];

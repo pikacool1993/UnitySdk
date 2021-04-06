@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
   s.libraries = 'c++'
   
   s.dependency 'AppLovinSDK'
+  s.dependency 'FBSDKLoginKit'
   s.dependency 'SAMKeychain'
 end

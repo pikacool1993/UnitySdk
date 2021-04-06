@@ -1,6 +1,6 @@
 {
   "name": "UnitySdk",
-  "version": "0.0.4",
+  "version": "0.0.4.1",
   "summary": "Unity Game SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pikacool1993/UnitySdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pikacool1993/UnitySdk.git",
-    "tag": "0.0.4"
+    "tag": "0.0.4.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,6 +23,9 @@
   "libraries": "c++",
   "dependencies": {
     "AppLovinSDK": [
+
+    ],
+    "FBSDKLoginKit": [
 
     ],
     "SAMKeychain": [

@@ -7,8 +7,10 @@
 
 #import "UBridge.h"
 
-#import <UnitySdk/PMDevice.h>
-#import <UnitySdk/PMApplication.h>
+#import <UnitySdk/BitchDevice.h>
+#import <UnitySdk/BitchApplication.h>
+#import <UnitySdk/BitchLogin.h>
+#import <UnitySdk/BitchRate.h>
 
 // Converts NSString to C style string by way of copy (Mono will free it)
 #define MakeStringCopy( _x_ ) ( _x_ != NULL && [_x_ isKindOfClass:[NSString class]] ) ? strdup( [_x_ UTF8String] ) : strdup( [@"" UTF8String] )
@@ -21,33 +23,50 @@
 
 #pragma mark - Basic DeviceInfo
 char* _ApplicationName() {
-    NSString *appName = [PMApplication applicationName];
+    NSString *appName = [BitchApplication applicationName];
     return MakeStringCopy(appName);
 }
 
 char* _ApplicationBundleId() {
-    NSString *bundleId = [PMApplication applicationBundleId];
+    NSString *bundleId = [BitchApplication applicationBundleId];
     return MakeStringCopy(bundleId);
 }
 
 char* _ApplicationVersion() {
-    NSString *appVersion = [PMApplication applicationVersion];
+    NSString *appVersion = [BitchApplication applicationVersion];
     return MakeStringCopy(appVersion);
 }
 
 char* _ApplicationBuildVersion() {
-    NSString *appBuildVersion = [PMApplication applicationBuildVersion];
+    NSString *appBuildVersion = [BitchApplication applicationBuildVersion];
     return MakeStringCopy(appBuildVersion);
 }
 
 bool _IsFullScreen() {
-    bool fullScreen = [PMDevice isFullScreen] ? true : false;
+    bool fullScreen = [BitchDevice isFullScreen] ? true : false;
     return fullScreen;
 }
 
 bool _IsJailbreak() {
-    bool jailbreak = [PMDevice isJailbreak] ? true : false;
+    bool jailbreak = [BitchDevice isJailbreak] ? true : false;
     return jailbreak;
+}
+
+#pragma mark - Login
+void _LoginWithApple() {
+    [[BitchLogin shared] loginWithApple:^(id  _Nullable result, NSError * _Nullable error) {
+            
+    }];
+}
+
+void _LoginWithFacebook() {
+    [[BitchLogin shared] loginWithFackbook:^(id  _Nullable result, NSError * _Nullable error) {
+            
+    }];
+}
+
+void _RateUs() {
+    [[BitchRate shared] rate];
 }
 
 @end

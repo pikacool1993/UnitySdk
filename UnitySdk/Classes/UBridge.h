@@ -18,6 +18,11 @@ extern "C" {
     char* _ApplicationBuildVersion();
     bool _IsFullScreen();
     bool _IsJailbreak();
+    
+    void _LoginWithApple();
+    void _LoginWithFacebook();
+    
+    void _RateUs();
 }
 
 @end
