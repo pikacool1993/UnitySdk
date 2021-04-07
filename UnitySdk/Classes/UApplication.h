@@ -6,10 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UConfig.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UApplication : NSObject
+
+@property (nonatomic, strong) UConfig *config;
 
 + (instancetype)sharedApplication;
 

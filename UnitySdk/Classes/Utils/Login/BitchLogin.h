@@ -18,8 +18,7 @@ typedef enum : NSUInteger {
     BitchLoginResultUnknown = 90003
 } BitchLoginResult;
 
-typedef void (^BitchAppleLoginBlock)(id _Nullable result, NSError * _Nullable error);
-typedef void (^BitchFacebookLoginBlock)(id _Nullable result, NSError * _Nullable error);
+typedef void (^BitchLoginBlock)(NSString * _Nullable resultJson, NSInteger errorCode, NSString * _Nullable errorMsg);
 
 @interface BitchLogin : NSObject
 
@@ -27,11 +26,11 @@ typedef void (^BitchFacebookLoginBlock)(id _Nullable result, NSError * _Nullable
 
 /// Apple 登录
 /// @param loginBlock 登录回调
-- (void)loginWithApple:(BitchAppleLoginBlock)loginBlock;
+- (void)loginWithApple:(BitchLoginBlock)loginBlock;
 
 /// Facebook
 /// @param loginBlock Facebook登录
-- (void)loginWithFackbook:(BitchFacebookLoginBlock)loginBlock;
+- (void)loginWithFacebook:(BitchLoginBlock)loginBlock;
 
 @end
 

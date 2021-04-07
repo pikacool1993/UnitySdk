@@ -11,8 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UBridge : NSObject
 
-typedef void(BitchLoginWithAppleCallback)();
-typedef void(BitchLoginWithFacebookCallback)();
+typedef void(BitchLoginCallback)(const char *result, int errorCode, const char *errorMsg);
 
 extern "C" {
     char* _ApplicationName();
@@ -22,8 +21,8 @@ extern "C" {
     bool _IsFullScreen();
     bool _IsJailbreak();
     
-    void _LoginWithApple(BitchLoginWithAppleCallback);
-    void _LoginWithFacebook(BitchLoginWithFacebookCallback);
+    void _LoginWithApple(BitchLoginCallback);
+    void _LoginWithFacebook(BitchLoginCallback);
     
     void _RateUs();
 }

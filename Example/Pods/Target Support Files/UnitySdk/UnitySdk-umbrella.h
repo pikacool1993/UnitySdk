@@ -19,6 +19,8 @@
 #import "UKit.h"
 #import "BitchApplication.h"
 #import "BitchDevice.h"
+#import "BitchLogin.h"
+#import "BitchRate.h"
 
 FOUNDATION_EXPORT double UnitySdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char UnitySdkVersionString[];

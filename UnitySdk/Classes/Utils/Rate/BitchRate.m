@@ -7,6 +7,7 @@
 
 #import "BitchRate.h"
 
+#import <UnitySdk/UApplication.h>
 #import <StoreKit/SKStoreReviewController.h>
 
 @implementation BitchRate
@@ -26,7 +27,7 @@
            [SKStoreReviewController requestReview];
        }
     } else {
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[@"https://apps.apple.com/app/id" stringByAppendingString:@""]]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[@"https://apps.apple.com/app/id" stringByAppendingString:[UApplication sharedApplication].config.applestore_id]]];
     }
 }
 

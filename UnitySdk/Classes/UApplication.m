@@ -6,10 +6,9 @@
 //
 
 #import "UApplication.h"
-#import "UConfig.h"
 
 @interface UApplication ()
-@property (nonatomic, strong) UConfig *config;
+
 @end
 
 @implementation UApplication

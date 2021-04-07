@@ -11,10 +11,11 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <AuthenticationServices/AuthenticationServices.h>
+#import <MJExtension/MJExtension.h>
 
 @interface BitchLogin () <ASAuthorizationControllerPresentationContextProviding, ASAuthorizationControllerDelegate>
 
-@property (nonatomic, copy) void (^appleLoginBlock)(id _Nullable result, NSError  * _Nullable error);
+@property (nonatomic, copy) BitchLoginBlock appleLoginBlock;
 
 @end
 
@@ -29,7 +30,7 @@
     return login;
 }
 
-- (void)loginWithApple:(BitchAppleLoginBlock)loginBlock API_AVAILABLE(ios(13.0)) {
+- (void)loginWithApple:(BitchLoginBlock)loginBlock API_AVAILABLE(ios(13.0)) {
     if (!loginBlock) {
         return;
     }
@@ -46,35 +47,35 @@
     [vc performRequests];
 }
 
-- (void)loginWithFackbook:(BitchFacebookLoginBlock)loginBlock {
+- (void)loginWithFacebook:(BitchLoginBlock)loginBlock {
     FBSDKAccessToken *facebookToken = [FBSDKAccessToken currentAccessToken];
     if (facebookToken.tokenString && [facebookToken.expirationDate compare:[NSDate date]] != NSOrderedAscending) {
-        [self fetchFaceBookUserinfoWithCallBack:loginBlock];
+        [self fetchFaceBookUserinfoWithBlock:loginBlock];
         return;
     }
     
     FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
     [login logInWithPermissions:@[@"public_profile", @"email"] fromViewController:[BitchApplication presentingVc] handler:^(FBSDKLoginManagerLoginResult * _Nullable result, NSError * _Nullable error) {
         if (error) {
-            loginBlock(nil, error);
+            loginBlock(nil, error.code, error.description);
         } else {
             if (result.isCancelled) {
-                loginBlock(nil, [NSError errorWithDomain:@"FacebookLogin" code:BitchLoginResultUserCancel userInfo:@{NSLocalizedDescriptionKey : @"ErrorCanceled"}]);
+                loginBlock(nil, BitchLoginResultUserCancel, @"ErrorCanceled");
             } else {
-                [self fetchFaceBookUserinfoWithCallBack:loginBlock];
+                [self fetchFaceBookUserinfoWithBlock:loginBlock];
             }
         }
     }];
 }
 
-- (void)fetchFaceBookUserinfoWithCallBack:(BitchFacebookLoginBlock)loginBlock {
+- (void)fetchFaceBookUserinfoWithBlock:(BitchLoginBlock)loginBlock {
     NSDictionary *params = @{@"fields": @"id,email,name,picture.type(large)"};
     FBSDKGraphRequest *request = [[FBSDKGraphRequest alloc] initWithGraphPath:@"me"
                                                                    parameters:params
                                                                    HTTPMethod:@"GET"];
     [request startWithCompletionHandler:^(FBSDKGraphRequestConnection * _Nullable connection, id  _Nullable result, NSError * _Nullable error) {
         if (error) {
-            loginBlock(nil, error);
+            loginBlock(nil, error.code, error.description);
         } else {
             if ([result isKindOfClass:[NSDictionary class]]) {
                 NSDictionary *resultNew = (NSDictionary *)result;
@@ -90,11 +91,11 @@
                 NSDictionary *userInfo = @{@"uid" : userId ? : @"",
                                            @"name" : fullName ? : @"",
                                            @"email" : email ? : @"",
-                                           @"picUrl": picUrl
-                };
-                loginBlock(userInfo, nil);
+                                           @"picUrl": picUrl};
+                NSString *userInfoJson = [userInfo mj_JSONString];
+                loginBlock(userInfoJson, 0, nil);
             } else {
-                loginBlock(nil, [NSError errorWithDomain:@"facebookLogin" code:BitchLoginResultSystemError userInfo:@{NSLocalizedDescriptionKey : @"ErrorInvalidResponse"}]);
+                loginBlock(nil, BitchLoginResultSystemError, @"ErrorInvalidResponse");
             }
         }
     }];
@@ -103,7 +104,7 @@
 #pragma mark - ASAuthorizationControllerDelegate
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithAuthorization:(ASAuthorization *)authorization API_AVAILABLE(ios(13.0)) {
     if ([authorization.credential isKindOfClass:[ASAuthorizationAppleIDCredential class]])       {
-        ASAuthorizationAppleIDCredential *credential = authorization.credential;
+        ASAuthorizationAppleIDCredential *credential = (ASAuthorizationAppleIDCredential *)authorization.credential;
         
         NSString *userId = credential.user;
         NSPersonNameComponents *fullName = credential.fullName;
@@ -113,17 +114,18 @@
             NSDictionary *userInfo = @{@"uid" : userId,
                                        @"name" : fullName.nickname ? : @"",
                                        @"email" : email ? : @""};
-            self.appleLoginBlock(userInfo, nil);
+            NSString *userInfoJson = [userInfo mj_JSONString];
+            self.appleLoginBlock(userInfoJson, 0, nil);
         } else {
-            self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{NSLocalizedDescriptionKey : @"ErrorInvalidResponse"}]);
+            self.appleLoginBlock(nil, BitchLoginResultSystemError, @"ErrorInvalidResponse");
         }
     } else {
-        self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{NSLocalizedDescriptionKey : @"ErrorInvalidResponse"}]);
+        self.appleLoginBlock(nil, BitchLoginResultSystemError, @"ErrorInvalidResponse");
     }
 }
 
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithError:(NSError *)error API_AVAILABLE(ios(13.0)) {
-    self.appleLoginBlock(nil, error);
+    self.appleLoginBlock(nil, error.code, error.description);
 }
 
 - (nonnull ASPresentationAnchor)presentationAnchorForAuthorizationController:(nonnull ASAuthorizationController *)controller API_AVAILABLE(ios(13.0)) {
