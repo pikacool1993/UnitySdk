@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'AppLovinSDK'
   s.dependency 'FBSDKLoginKit'
+  s.dependency 'MJExtension'
   s.dependency 'SAMKeychain'
 end

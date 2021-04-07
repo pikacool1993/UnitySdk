@@ -55,13 +55,13 @@ bool _IsJailbreak() {
 #pragma mark - Login
 void _LoginWithApple() {
     [[BitchLogin shared] loginWithApple:^(id  _Nullable result, NSError * _Nullable error) {
-            
+        
     }];
 }
 
 void _LoginWithFacebook() {
     [[BitchLogin shared] loginWithFackbook:^(id  _Nullable result, NSError * _Nullable error) {
-            
+        
     }];
 }
 

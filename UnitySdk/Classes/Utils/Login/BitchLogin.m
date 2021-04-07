@@ -115,10 +115,10 @@
                                        @"email" : email ? : @""};
             self.appleLoginBlock(userInfo, nil);
         } else {
-            self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{ NSLocalizedDescriptionKey : @"ErrorInvalidResponse" }]);
+            self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{NSLocalizedDescriptionKey : @"ErrorInvalidResponse"}]);
         }
     } else {
-        self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{ NSLocalizedDescriptionKey : @"ErrorInvalidResponse" }]);
+        self.appleLoginBlock(nil, [NSError errorWithDomain:@"AppleLogin" code:BitchLoginResultSystemError userInfo:@{NSLocalizedDescriptionKey : @"ErrorInvalidResponse"}]);
     }
 }
 
