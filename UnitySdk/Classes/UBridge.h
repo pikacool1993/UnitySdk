@@ -25,6 +25,13 @@ extern "C" {
     void _LoginWithFacebook(BitchLoginCallback);
     
     void _RateUs();
+    
+    bool _IsInterstitialAdReady();
+    bool _IsRewardedAdReady();
+    void _LoadInterstitialAd();
+    void _LoadRewardedAd();
+    void _ShowInterstitialAd();
+    void _ShowRewaredAd();
 }
 
 @end

@@ -11,6 +11,7 @@
 #import <UnitySdk/BitchApplication.h>
 #import <UnitySdk/BitchLogin.h>
 #import <UnitySdk/BitchRate.h>
+#import <UnitySdk/BitchAd.h>
 
 // Converts NSString to C style string by way of copy (Mono will free it)
 #define MakeStringCopy( _x_ ) ( _x_ != NULL && [_x_ isKindOfClass:[NSString class]] ) ? strdup( [_x_ UTF8String] ) : strdup( [@"" UTF8String] )
@@ -69,6 +70,31 @@ void _LoginWithFacebook(BitchLoginCallback callback) {
 
 void _RateUs() {
     [[BitchRate shared] rate];
+}
+
+#pragma mark - Ads
+bool _IsInterstitialAdReady() {
+    return [BitchAd shared].isInterstitialAdReady ? true : false;
+}
+
+bool _IsRewardedAdReady() {
+    return [BitchAd shared].isRewardedAdReady ? true : false;
+}
+
+void _LoadInterstitialAd() {
+    [[BitchAd shared] loadInterstitialAd];
+}
+
+void _LoadRewardedAd() {
+    [[BitchAd shared] loadRewardedAd];
+}
+
+void _ShowInterstitialAd() {
+    [[BitchAd shared] showInterstitialAd];
+}
+
+void _ShowRewaredAd() {
+    [[BitchAd shared] showRewaredAd];
 }
 
 @end

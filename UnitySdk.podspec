@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UnitySdk'
-  s.version          = '0.0.4.4'
+  s.version          = '0.0.5'
   s.summary          = 'Unity Game SDK'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.libraries = 'c++'
   
-  s.dependency 'AppLovinSDK'
   s.dependency 'FBSDKLoginKit'
   s.dependency 'MJExtension'
   s.dependency 'SAMKeychain'
