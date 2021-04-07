@@ -1,15 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## AppLovinSDK
-
-
-Copyright 2018 AppLovin Corp. All rights reserved.
-
-The AppLovin SDK is available under a commercial license (https://www.applovin.com/eula).
-
-
-
 ## FBSDKCoreKit
 
 Copyright (c) 2014-present, Facebook, Inc. All rights reserved.

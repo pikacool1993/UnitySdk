@@ -17,6 +17,7 @@
 #import "UApplication.h"
 #import "UBridge.h"
 #import "UKit.h"
+#import "BitchAd.h"
 #import "BitchApplication.h"
 #import "BitchDevice.h"
 #import "BitchLogin.h"
