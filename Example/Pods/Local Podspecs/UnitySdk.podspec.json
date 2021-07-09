@@ -1,6 +1,6 @@
 {
   "name": "UnitySdk",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "summary": "Unity Game SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pikacool1993/UnitySdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pikacool1993/UnitySdk.git",
-    "tag": "0.0.5"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

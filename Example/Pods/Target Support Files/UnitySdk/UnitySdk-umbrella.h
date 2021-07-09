@@ -10,18 +10,13 @@
 #endif
 #endif
 
-#import "UConfig.h"
 #import "UAppDelegateListener.h"
 #import "ULifeCycleListener.h"
 #import "UUnityViewControllerListener.h"
 #import "UApplication.h"
-#import "UBridge.h"
 #import "UKit.h"
-#import "BitchAd.h"
 #import "BitchApplication.h"
 #import "BitchDevice.h"
-#import "BitchLogin.h"
-#import "BitchRate.h"
 
 FOUNDATION_EXPORT double UnitySdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char UnitySdkVersionString[];

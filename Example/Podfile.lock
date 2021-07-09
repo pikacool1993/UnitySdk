@@ -1,7 +1,7 @@
 PODS:
   - MJExtension (3.2.4)
   - SAMKeychain (1.5.3)
-  - UnitySdk (0.0.5):
+  - UnitySdk (1.0.0):
     - MJExtension
     - SAMKeychain
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  UnitySdk: 41a476305e37e756d4c748eace68f10fe7db4820
+  UnitySdk: 52472063180f226338f17b841a83fd85733ba3a4
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 

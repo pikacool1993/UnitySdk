@@ -13,191 +13,191 @@
 		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4591122166F4DC8FFEC102B8A35F3F /* MJExtension-dummy.m */; };
 		06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = AE85BB2C1CDA8FD1D2ACF51CB10EBEDC /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C26A81A7D84452FBBEFF0A2E65794E /* NSObject+MJProperty.m */; };
+		0AE38CCB84D0ED3EBD645CBFE09EDF97 /* ULifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = E8556676BAD038330823AD80D05EABDA /* ULifeCycleListener.mm */; };
+		0BB8EFF48C45BEF9A2F3B5652842C671 /* UKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D2B31CEA3DC597398B3CDA76417332 /* UKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7055780E5CF9BC328565597A18D01A /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		180B0BC996F28420A22940BB965F2687 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FDC2A804FFB2F361CCDBECAC8FC68C /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		233275DFFF140E754154AEB04B6A2812 /* UAppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C272557CFB2E7011A8B81AA5903BA345 /* UAppDelegateListener.mm */; };
 		2550EA80C45F86FEFB6B484590C3127B /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1197A89E62B5A58AA35596765D5B9326 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD76953E3C1EC32857E4312BD4F1A13 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A211385F5E1670319DB3627E48536B2 /* BitchApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7669D328930F401911C32174E010F7 /* BitchApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31075D878557473199D62BEA775CBD49 /* UUnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3A3E5DBFD71484C579D381AD809D20F /* UUnityViewControllerListener.mm */; };
+		330CDBC29343C13EDA854E0C2D66B18E /* BitchApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A69DAE5A7A072DB5EAD2ABFF3D073768 /* BitchApplication.m */; };
 		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B41CD88A8F6E3F0C2FDDC36B1F1DB42D /* MJProperty.m */; };
-		3C627F76AFA708AD0C79ED2051903758 /* UnitySdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2C06AD933C54DB27267B1A7E48D450 /* UnitySdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD8DF72FB86BF6B8C5A6E4B9FC48FF8 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44CEE4245FEA4040F6733DBF739F66A7 /* UAppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 629B8421CDC782828262648F05096CAE /* UAppDelegateListener.mm */; };
 		464BE5F294EA7CC26AE101D0A24EFB3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
 		48749968F49ABC19B218B6A650DA2EFA /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9307FE2F1B2954ABE7837946BA2728E5 /* SAMKeychain.bundle */; };
+		493C949B88C5C6BA3126CD720A568479 /* UnitySdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A6B23A218FCA18FD49AADE5BFEB8ED /* UnitySdk-dummy.m */; };
+		4C3E04206643327B73D1D5C51FD9CEC7 /* UApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DB69937A1D12E3474340112B303299 /* UApplication.m */; };
 		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 392510C017F5EC1CB00B754D7329D27E /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		533157C240BB20A0E9C2A0A0EF2B87A9 /* Pods-UnitySdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9CED4B5C86F747DA50C3362A0F0D24E /* Pods-UnitySdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5520D721FF2305A70D36E0EDB1B1F53D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
-		55DB9B94BD1A57EE1E30AB30CA31FAFB /* UKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = C369F477A5D3F8353309B464E6757843 /* UKit.mm */; };
-		5F4039CE0406834EF4D424B3D388C4DA /* BitchApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A984655E8DCDC917BF1FBB75FB57540 /* BitchApplication.m */; };
+		594CC8E5D040A73F87C95EAB5CA4E361 /* BitchApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B89090ABBCD79D2E8F3DAF4BCB7E51 /* BitchApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6107371EFEC60E506D35CDEC1C916796 /* UAppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3BAF4D4124A7868AD7C7359A96B228 /* UAppDelegateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624228770030AD8E53598A381509BE39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
+		665F95E27CF271EF099675FC99373B0E /* UUnityViewControllerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C0B8D16EA11C89D0B020A7A7BA622 /* UUnityViewControllerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DF61F525AFAD63AB7B0BB50F225CD16 /* Pods-UnitySdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 646764B8FE03940FB8A69404FD4856D3 /* Pods-UnitySdk_Tests-dummy.m */; };
 		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = EE87A096A89BEE1E9A11B89AE6A1F931 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EED049476ADC1C24B773BD0D226FE85F /* MJPropertyKey.m */; };
-		7AADBDAF71337FA20631C1F739E3BA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
+		72ED50D34A0E20EF11AA289D5813F4CD /* BitchDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 795D4EED287DC19DE11887C2D95D191B /* BitchDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B560F4B090A32FE2016AD759F7B43759 /* NSObject+MJCoding.m */; };
 		891D660974490E2CC72F75E843CD460E /* Pods-UnitySdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D72D6236F4417911A9E5657EA0FAA11F /* Pods-UnitySdk_Example-dummy.m */; };
 		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = B218C78393079CC706FE93125287A6C6 /* MJPropertyType.m */; };
-		9120EC0973490815B2E6BB6AD11EF33C /* UAppDelegateListener.h in Headers */ = {isa = PBXBuildFile; fileRef = DF1BFABD5A5F83C74C0185461490B1BE /* UAppDelegateListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC93D2459182AE5090EF021A00C5252 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D79BFF143D18839C3305B45372BDC1C0 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		996952A23D3B57ED4161D8750DDA1255 /* UApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = C01FE46C2F1B5FAF2A94E03227715BC9 /* UApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C233C51B65196D2429A274F6C8A3B18C /* NSObject+MJKeyValue.m */; };
-		9F16E473F4054554BEDC339EA61CF561 /* UnitySdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEE339C962B34912205A47D7FB23DE1 /* UnitySdk-dummy.m */; };
 		A44705A450B7BC75180A9FC266CCFB3D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F149D6BBA97BA6685C048686F1BF11 /* SAMKeychain-dummy.m */; };
 		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A58D61D08AA1F453339C51B23D179C /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEC9EAE73EDC0A742DEE04106E7BC351 /* BitchDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4C1D19FF25E755C565A5A4C238CE6D /* BitchDevice.m */; };
+		B57782B56BFAE2EA4A75EEACDBBA1509 /* UApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA215288EE580B569D108178966DE2D /* UApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8749103E9CD20278E81A303E6DF58A3 /* Pods-UnitySdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860CE3AA43D28C13AC4E0B7CF407A309 /* Pods-UnitySdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C680FCD9CE9F14A0E4B567AA689007D /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD12049E8239573A2BE0E3E255AA1A3F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2A0B779CE31153B2C0D8A7F8DC7FE /* Security.framework */; };
 		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C711E05523FC26756299BFD4CE99DE3 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3C0A7F922C69F46692EA0999661651B /* UKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2F43F588F3EAEF339229F18F9A45DE /* UKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C561FBCDE251FE2E2690509B3881FF78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
-		CA155171675EF281EF90746581AF16FC /* BitchDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A97F9BE17DBD3A4BF5A72801C20DA9 /* BitchDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F71AF5CFA9EAA9CC2427A9EEC5E2AC76 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCC0CABB1AADB1E1751D6FC4F8CC4DAC /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFF48A00B34AB33CCB44BE2B016C05 /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D645BD582C77ABB0B66250781E39DE6B /* ULifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B1F9E1FF0FBDF078CBD6AE80AE8B41 /* ULifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4810A9A34D12CD9FE9B592C476D2E1D /* ULifeCycleListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D7B667210A1B882265F154D1E5D572 /* ULifeCycleListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC26F4C1F939BD7E2C5FCCBE846EDC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */; };
-		DFEC4FB572BCFD471853DFD2352AD93E /* UApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 35602F4745CB85C4E0820BCAC5498CEF /* UApplication.m */; };
 		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA9939E1CAC7D079BC444B2C563AFBD /* NSString+MJExtension.m */; };
-		EDEFF34F3C25F7C1D12E961301548496 /* UUnityViewControllerListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 494F8B57547F759E1D33F4AAA717AB03 /* UUnityViewControllerListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F094708B88B613B30655E64D11AF6A49 /* ULifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C504D803F82A5CF4AF9CFB12869B5F11 /* ULifeCycleListener.mm */; };
+		E70C5ADA7B9503285D56E00D9D5AC515 /* BitchDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAD0B4032007883A2A32322C18166F9 /* BitchDevice.m */; };
 		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 19306A2ADBB9FD12B8F4DAC0F445A6E8 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16907B609810422393C708F73BF23C1 /* UKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF99F2478EA11801585724D3690736DE /* UKit.mm */; };
 		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D87A9EAF96D69D570FC49F8003C0E66C /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCD4CD5A5859F3920D66C3EF6A68048B /* UUnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = D050831BA0697B8492BBDC8E14EEE10E /* UUnityViewControllerListener.mm */; };
+		FBDE457F18CE041B032AE116CD7B4A79 /* UnitySdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E91503937E9433530055E004DFA74159 /* UnitySdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		476D310CF813D96133FFC1A33FFF33E7 /* PBXContainerItemProxy */ = {
+		1180EF8D9BB31BCB274BE491CF9F7106 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
 			remoteInfo = SAMKeychain;
 		};
-		4EC25E0ABCF38F5DCCCB352658FE524B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D87E26324D77CB34D7783795202704ED;
-			remoteInfo = UnitySdk;
-		};
-		7CDC2C431D67D26B1439B0A5E6314776 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
-		};
-		7EF8E13B9F1C21AAB3455A1C9BDE9F9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
-			remoteInfo = MJExtension;
-		};
-		B72662D7F6BFBB4E939AE65730A927D0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
-			remoteInfo = SAMKeychain;
-		};
-		C06C267C284CCFAB528C1E85D9CB3570 /* PBXContainerItemProxy */ = {
+		36D90AE0A3C34F51E91891640952E23D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 27BB973E4395BF67546F615FF587BE74;
 			remoteInfo = "Pods-UnitySdk_Example";
 		};
+		B415699D328A15545B9A4CCD294C4E53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D87E26324D77CB34D7783795202704ED;
+			remoteInfo = UnitySdk;
+		};
+		BB5EE9227B5C106244DEB12D4E0657A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		E17E6EC8251B22C82BF313B4C9DF2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		FABAA9D4C13BC9AA4EF5DB1F0EC991F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E49D22BFFD2913E49822BF1D10AC1C /* UnitySdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnitySdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07D7B667210A1B882265F154D1E5D572 /* ULifeCycleListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULifeCycleListener.h; sourceTree = "<group>"; };
 		0B000D622BBF0BBF4865DCBBEE80E2FC /* Pods-UnitySdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-Info.plist"; sourceTree = "<group>"; };
 		0BC93D2459182AE5090EF021A00C5252 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
-		0E4C1D19FF25E755C565A5A4C238CE6D /* BitchDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitchDevice.m; sourceTree = "<group>"; };
 		1197A89E62B5A58AA35596765D5B9326 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
 		15EEF7C08CB9D3E86947C4E399001300 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
 		16692D5EDEC013F6704391BB6F2D292E /* Pods-UnitySdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		19306A2ADBB9FD12B8F4DAC0F445A6E8 /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
-		1CEE339C962B34912205A47D7FB23DE1 /* UnitySdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnitySdk-dummy.m"; sourceTree = "<group>"; };
-		225A64EC18F6483E4293345473ACF7F6 /* UnitySdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnitySdk.modulemap; sourceTree = "<group>"; };
-		24F4B87292E2B939041E1E271DCD025B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2594CA354C174B00F75E93691839DD31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1B4C0B8D16EA11C89D0B020A7A7BA622 /* UUnityViewControllerListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUnityViewControllerListener.h; sourceTree = "<group>"; };
 		25A7D8D34CDFA8DEE240E0A2D225B9BB /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		296C592EA79B5470424EC199DAA0304A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD76953E3C1EC32857E4312BD4F1A13 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
-		308126E3120499B3215D1D4F1118FA1D /* UnitySdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitySdk-Info.plist"; sourceTree = "<group>"; };
-		32A97F9BE17DBD3A4BF5A72801C20DA9 /* BitchDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitchDevice.h; sourceTree = "<group>"; };
 		351956E1EDC82BB3231EA8E172FB1060 /* Pods-UnitySdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		35602F4745CB85C4E0820BCAC5498CEF /* UApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UApplication.m; path = UnitySdk/Classes/UApplication.m; sourceTree = "<group>"; };
 		35E46D4FB529F85627D324DD5653568C /* SAMKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.debug.xcconfig; sourceTree = "<group>"; };
 		392510C017F5EC1CB00B754D7329D27E /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		396C8D5CD663C3602A2C803E70DBBD55 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
-		398C68D36A9F24D557BDCD273A0A4761 /* UnitySdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.release.xcconfig; sourceTree = "<group>"; };
 		39B0FFA79D26F0EC8440A325DD13B03D /* Pods-UnitySdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3D43AE2AEAE5E8BF3EB7C98C3F26BC81 /* Pods-UnitySdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		3FD8DF72FB86BF6B8C5A6E4B9FC48FF8 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		451B7D2E5E5B246572927A18E39249E4 /* SAMKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.release.xcconfig; sourceTree = "<group>"; };
-		494F8B57547F759E1D33F4AAA717AB03 /* UUnityViewControllerListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUnityViewControllerListener.h; sourceTree = "<group>"; };
+		4F3BAF4D4124A7868AD7C7359A96B228 /* UAppDelegateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UAppDelegateListener.h; sourceTree = "<group>"; };
 		59B6787602E1449BFECD51A85737EBC5 /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
 		5C680FCD9CE9F14A0E4B567AA689007D /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		5D8709083EBE91AB3DC07B9396015577 /* Pods-UnitySdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitySdk_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5DCD18A56E7776189146864C5A11EB73 /* Pods-UnitySdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62813AB3D9E3E9F364FDCFFDDCFAC523 /* UnitySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnitySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		629B8421CDC782828262648F05096CAE /* UAppDelegateListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = UAppDelegateListener.mm; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62813AB3D9E3E9F364FDCFFDDCFAC523 /* UnitySdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnitySdk.framework; path = UnitySdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		646764B8FE03940FB8A69404FD4856D3 /* Pods-UnitySdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		6623A4A266E3CB4272F6EDB3314BF958 /* Pods-UnitySdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		664E482B60DCF9EE7005642D7F35E12A /* Pods-UnitySdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitySdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		704C7D8898B59E612DB0609F0634D36A /* UnitySdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UnitySdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7A984655E8DCDC917BF1FBB75FB57540 /* BitchApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitchApplication.m; sourceTree = "<group>"; };
-		7E2C06AD933C54DB27267B1A7E48D450 /* UnitySdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-umbrella.h"; sourceTree = "<group>"; };
+		6FCA3220A63DF6BA39E21014180088FE /* UnitySdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-prefix.pch"; sourceTree = "<group>"; };
+		70A6B23A218FCA18FD49AADE5BFEB8ED /* UnitySdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnitySdk-dummy.m"; sourceTree = "<group>"; };
+		73B89090ABBCD79D2E8F3DAF4BCB7E51 /* BitchApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitchApplication.h; sourceTree = "<group>"; };
+		7483C706135064701D2D6B037AAFFBFD /* UnitySdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.release.xcconfig; sourceTree = "<group>"; };
+		761BA2BBD945472E92ECB1A9F7EBC843 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		795D4EED287DC19DE11887C2D95D191B /* BitchDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitchDevice.h; sourceTree = "<group>"; };
+		7A4D35A4FEC59AD15BDCAFEA00B42613 /* UnitySdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnitySdk.modulemap; sourceTree = "<group>"; };
+		7BA215288EE580B569D108178966DE2D /* UApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UApplication.h; path = UnitySdk/Classes/UApplication.h; sourceTree = "<group>"; };
+		7CAD0B4032007883A2A32322C18166F9 /* BitchDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitchDevice.m; sourceTree = "<group>"; };
 		812EB4744B9A42E36BEB2B6BBC1937B3 /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
-		816A65DBE603CF0496D01EF78A485845 /* UnitySdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.debug.xcconfig; sourceTree = "<group>"; };
+		83DB69937A1D12E3474340112B303299 /* UApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UApplication.m; path = UnitySdk/Classes/UApplication.m; sourceTree = "<group>"; };
 		860CE3AA43D28C13AC4E0B7CF407A309 /* Pods-UnitySdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		86A58D61D08AA1F453339C51B23D179C /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
 		8CF0E87A4FBA472CBF12DB01DB596064 /* Pods-UnitySdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Tests.modulemap"; sourceTree = "<group>"; };
+		9282A8A8FE96F9B55CD73B9E7120972A /* UnitySdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnitySdk.debug.xcconfig; sourceTree = "<group>"; };
 		9307FE2F1B2954ABE7837946BA2728E5 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
-		932828F178277609B1D22FB300DB0E9A /* Pods_UnitySdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932828F178277609B1D22FB300DB0E9A /* Pods_UnitySdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnitySdk_Tests.framework; path = "Pods-UnitySdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		952925E838A0DE4D7BDC4EE54022633D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9B9316F593CA9B5708D2070B6988A172 /* UnitySdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitySdk-Info.plist"; sourceTree = "<group>"; };
 		9C4AFFBC714AED54178DC8B4C4B22DD5 /* Pods-UnitySdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitySdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9C711E05523FC26756299BFD4CE99DE3 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7B1F9E1FF0FBDF078CBD6AE80AE8B41 /* ULifeCycleListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ULifeCycleListener.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4D2B31CEA3DC597398B3CDA76417332 /* UKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UKit.h; path = UnitySdk/Classes/UKit.h; sourceTree = "<group>"; };
+		A69DAE5A7A072DB5EAD2ABFF3D073768 /* BitchApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitchApplication.m; sourceTree = "<group>"; };
 		AD1481816149841B6402345222E8EB36 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
-		AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitySdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD527271D10F6033248FDC9174BFFCCE /* Pods_UnitySdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnitySdk_Example.framework; path = "Pods-UnitySdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD995D397731384325FA07F6A513FFA8 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		AE4591122166F4DC8FFEC102B8A35F3F /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
 		AE85BB2C1CDA8FD1D2ACF51CB10EBEDC /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		AF99F2478EA11801585724D3690736DE /* UKit.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = UKit.mm; path = UnitySdk/Classes/UKit.mm; sourceTree = "<group>"; };
 		B218C78393079CC706FE93125287A6C6 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		B3A3E5DBFD71484C579D381AD809D20F /* UUnityViewControllerListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = UUnityViewControllerListener.mm; sourceTree = "<group>"; };
 		B41CD88A8F6E3F0C2FDDC36B1F1DB42D /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		B560F4B090A32FE2016AD759F7B43759 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
 		B5EFF48A00B34AB33CCB44BE2B016C05 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
 		B62C78F0AC562AB2CA22331B0D2612D1 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		B6C89D833335B747BB70AFFEC99C490A /* Pods-UnitySdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnitySdk_Example.modulemap"; sourceTree = "<group>"; };
 		BFCA15DC02FBE724915E5CAC781E897F /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
-		C01FE46C2F1B5FAF2A94E03227715BC9 /* UApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UApplication.h; path = UnitySdk/Classes/UApplication.h; sourceTree = "<group>"; };
 		C233C51B65196D2429A274F6C8A3B18C /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
-		C369F477A5D3F8353309B464E6757843 /* UKit.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = UKit.mm; path = UnitySdk/Classes/UKit.mm; sourceTree = "<group>"; };
+		C272557CFB2E7011A8B81AA5903BA345 /* UAppDelegateListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = UAppDelegateListener.mm; sourceTree = "<group>"; };
 		C3B2A0B779CE31153B2C0D8A7F8DC7FE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		C504D803F82A5CF4AF9CFB12869B5F11 /* ULifeCycleListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = ULifeCycleListener.mm; sourceTree = "<group>"; };
 		C9CED4B5C86F747DA50C3362A0F0D24E /* Pods-UnitySdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitySdk_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CE7669D328930F401911C32174E010F7 /* BitchApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitchApplication.h; sourceTree = "<group>"; };
 		CEA9939E1CAC7D079BC444B2C563AFBD /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
-		D050831BA0697B8492BBDC8E14EEE10E /* UUnityViewControllerListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = UUnityViewControllerListener.mm; sourceTree = "<group>"; };
 		D1FDC2A804FFB2F361CCDBECAC8FC68C /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
 		D72D6236F4417911A9E5657EA0FAA11F /* Pods-UnitySdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitySdk_Example-dummy.m"; sourceTree = "<group>"; };
 		D79BFF143D18839C3305B45372BDC1C0 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		D87A9EAF96D69D570FC49F8003C0E66C /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		DAD77BD25A0E8FA27B6554CB1448EB0C /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
-		DF1BFABD5A5F83C74C0185461490B1BE /* UAppDelegateListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UAppDelegateListener.h; sourceTree = "<group>"; };
 		E2ABE7F162489EFD2BA0302E5466B991 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
-		E2D51A81DC9BF9EFA081A5AD2CE106DC /* UnitySdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-prefix.pch"; sourceTree = "<group>"; };
 		E2F149D6BBA97BA6685C048686F1BF11 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
 		E7C26A81A7D84452FBBEFF0A2E65794E /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		E8556676BAD038330823AD80D05EABDA /* ULifeCycleListener.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = ULifeCycleListener.mm; sourceTree = "<group>"; };
+		E91503937E9433530055E004DFA74159 /* UnitySdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitySdk-umbrella.h"; sourceTree = "<group>"; };
 		EE87A096A89BEE1E9A11B89AE6A1F931 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
 		EED049476ADC1C24B773BD0D226FE85F /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
 		F71AF5CFA9EAA9CC2427A9EEC5E2AC76 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
-		FA2F43F588F3EAEF339229F18F9A45DE /* UKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UKit.h; path = UnitySdk/Classes/UKit.h; sourceTree = "<group>"; };
 		FE391DB52F0E694E04BB1F07178BE3FD /* Pods-UnitySdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitySdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7055780E5CF9BC328565597A18D01A /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,14 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC26F4C1F939BD7E2C5FCCBE846EDC0A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		909EBA517696ED15C4BA5062122508C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AADBDAF71337FA20631C1F739E3BA7C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +228,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E02E1BDF19741EFC8600C4C1AE7A863C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624228770030AD8E53598A381509BE39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,14 +247,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		090ED965AFD8CC0B8F176249E8C73FD4 /* Pod */ = {
+		11590BFF341E9E0AC07CF28680C4AE6A /* UnitySdk */ = {
 			isa = PBXGroup;
 			children = (
-				2594CA354C174B00F75E93691839DD31 /* LICENSE */,
-				24F4B87292E2B939041E1E271DCD025B /* README.md */,
-				704C7D8898B59E612DB0609F0634D36A /* UnitySdk.podspec */,
+				7BA215288EE580B569D108178966DE2D /* UApplication.h */,
+				83DB69937A1D12E3474340112B303299 /* UApplication.m */,
+				A4D2B31CEA3DC597398B3CDA76417332 /* UKit.h */,
+				AF99F2478EA11801585724D3690736DE /* UKit.mm */,
+				9478EAF2AA26C7C9F93381B53A6F10C8 /* Plugins */,
+				77C2A8677AEC48FEB86CD8E8A0F1E1A0 /* Pod */,
+				9036DA14C8E051F480043D2B2EDAB399 /* Support Files */,
+				BA45B1F044B002D4AAB275526D97C914 /* Utils */,
 			);
-			name = Pod;
+			name = UnitySdk;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -280,28 +286,6 @@
 			path = "../Target Support Files/SAMKeychain";
 			sourceTree = "<group>";
 		};
-		4CBF91BAF2AF1873024B619D1DEB0C11 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C0F7C45C08F72C25608B9AEE4D96DCC /* UnitySdk */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		5819A2B1F220DD91034292D729517CE6 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				DF1BFABD5A5F83C74C0185461490B1BE /* UAppDelegateListener.h */,
-				629B8421CDC782828262648F05096CAE /* UAppDelegateListener.mm */,
-				A7B1F9E1FF0FBDF078CBD6AE80AE8B41 /* ULifeCycleListener.h */,
-				C504D803F82A5CF4AF9CFB12869B5F11 /* ULifeCycleListener.mm */,
-				494F8B57547F759E1D33F4AAA717AB03 /* UUnityViewControllerListener.h */,
-				D050831BA0697B8492BBDC8E14EEE10E /* UUnityViewControllerListener.mm */,
-			);
-			name = Plugins;
-			path = UnitySdk/Classes/Plugins;
-			sourceTree = "<group>";
-		};
 		7195324DE8A8033E62C447F44F1820A2 /* Pods-UnitySdk_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,20 +303,14 @@
 			path = "Target Support Files/Pods-UnitySdk_Example";
 			sourceTree = "<group>";
 		};
-		7C0F7C45C08F72C25608B9AEE4D96DCC /* UnitySdk */ = {
+		77C2A8677AEC48FEB86CD8E8A0F1E1A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C01FE46C2F1B5FAF2A94E03227715BC9 /* UApplication.h */,
-				35602F4745CB85C4E0820BCAC5498CEF /* UApplication.m */,
-				FA2F43F588F3EAEF339229F18F9A45DE /* UKit.h */,
-				C369F477A5D3F8353309B464E6757843 /* UKit.mm */,
-				5819A2B1F220DD91034292D729517CE6 /* Plugins */,
-				090ED965AFD8CC0B8F176249E8C73FD4 /* Pod */,
-				A59EA94A3F036AD004E2EC6DD86A0401 /* Support Files */,
-				A34AC17BC62202FB75A3DB88C6E7FBC7 /* Utils */,
+				761BA2BBD945472E92ECB1A9F7EBC843 /* LICENSE */,
+				296C592EA79B5470424EC199DAA0304A /* README.md */,
+				01E49D22BFFD2913E49822BF1D10AC1C /* UnitySdk.podspec */,
 			);
-			name = UnitySdk;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7CE426AC267333500FABE7BA0A5A42A0 /* iOS */ = {
@@ -351,6 +329,35 @@
 				A3A56E0A550ACE5976556C920DAE0955 /* Pods-UnitySdk_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9036DA14C8E051F480043D2B2EDAB399 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4D35A4FEC59AD15BDCAFEA00B42613 /* UnitySdk.modulemap */,
+				70A6B23A218FCA18FD49AADE5BFEB8ED /* UnitySdk-dummy.m */,
+				9B9316F593CA9B5708D2070B6988A172 /* UnitySdk-Info.plist */,
+				6FCA3220A63DF6BA39E21014180088FE /* UnitySdk-prefix.pch */,
+				E91503937E9433530055E004DFA74159 /* UnitySdk-umbrella.h */,
+				9282A8A8FE96F9B55CD73B9E7120972A /* UnitySdk.debug.xcconfig */,
+				7483C706135064701D2D6B037AAFFBFD /* UnitySdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UnitySdk";
+			sourceTree = "<group>";
+		};
+		9478EAF2AA26C7C9F93381B53A6F10C8 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				4F3BAF4D4124A7868AD7C7359A96B228 /* UAppDelegateListener.h */,
+				C272557CFB2E7011A8B81AA5903BA345 /* UAppDelegateListener.mm */,
+				07D7B667210A1B882265F154D1E5D572 /* ULifeCycleListener.h */,
+				E8556676BAD038330823AD80D05EABDA /* ULifeCycleListener.mm */,
+				1B4C0B8D16EA11C89D0B020A7A7BA622 /* UUnityViewControllerListener.h */,
+				B3A3E5DBFD71484C579D381AD809D20F /* UUnityViewControllerListener.mm */,
+			);
+			name = Plugins;
+			path = UnitySdk/Classes/Plugins;
 			sourceTree = "<group>";
 		};
 		9ED12DD6E268170C4A5769D92A648968 /* MJExtension */ = {
@@ -379,19 +386,8 @@
 				CEA9939E1CAC7D079BC444B2C563AFBD /* NSString+MJExtension.m */,
 				F3A9BE936E87C941369F13EF62B670D1 /* Support Files */,
 			);
+			name = MJExtension;
 			path = MJExtension;
-			sourceTree = "<group>";
-		};
-		A34AC17BC62202FB75A3DB88C6E7FBC7 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				CE7669D328930F401911C32174E010F7 /* BitchApplication.h */,
-				7A984655E8DCDC917BF1FBB75FB57540 /* BitchApplication.m */,
-				32A97F9BE17DBD3A4BF5A72801C20DA9 /* BitchDevice.h */,
-				0E4C1D19FF25E755C565A5A4C238CE6D /* BitchDevice.m */,
-			);
-			name = Utils;
-			path = UnitySdk/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		A3A56E0A550ACE5976556C920DAE0955 /* Pods-UnitySdk_Tests */ = {
@@ -410,19 +406,12 @@
 			path = "Target Support Files/Pods-UnitySdk_Tests";
 			sourceTree = "<group>";
 		};
-		A59EA94A3F036AD004E2EC6DD86A0401 /* Support Files */ = {
+		A87354F106657E10084F7489E9EABE75 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				225A64EC18F6483E4293345473ACF7F6 /* UnitySdk.modulemap */,
-				1CEE339C962B34912205A47D7FB23DE1 /* UnitySdk-dummy.m */,
-				308126E3120499B3215D1D4F1118FA1D /* UnitySdk-Info.plist */,
-				E2D51A81DC9BF9EFA081A5AD2CE106DC /* UnitySdk-prefix.pch */,
-				7E2C06AD933C54DB27267B1A7E48D450 /* UnitySdk-umbrella.h */,
-				816A65DBE603CF0496D01EF78A485845 /* UnitySdk.debug.xcconfig */,
-				398C68D36A9F24D557BDCD273A0A4761 /* UnitySdk.release.xcconfig */,
+				11590BFF341E9E0AC07CF28680C4AE6A /* UnitySdk */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UnitySdk";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		AA53E791D825567D37A2D99F8CBCE3B3 /* Resources */ = {
@@ -431,6 +420,18 @@
 				9307FE2F1B2954ABE7837946BA2728E5 /* SAMKeychain.bundle */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA45B1F044B002D4AAB275526D97C914 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				73B89090ABBCD79D2E8F3DAF4BCB7E51 /* BitchApplication.h */,
+				A69DAE5A7A072DB5EAD2ABFF3D073768 /* BitchApplication.m */,
+				795D4EED287DC19DE11887C2D95D191B /* BitchDevice.h */,
+				7CAD0B4032007883A2A32322C18166F9 /* BitchDevice.m */,
+			);
+			name = Utils;
+			path = UnitySdk/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		C562275432BD1351896B2C0888322A86 /* Pods */ = {
@@ -452,6 +453,7 @@
 				AA53E791D825567D37A2D99F8CBCE3B3 /* Resources */,
 				24A47EAEDC584C62D82E731769588C73 /* Support Files */,
 			);
+			name = SAMKeychain;
 			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
@@ -459,7 +461,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4CBF91BAF2AF1873024B619D1DEB0C11 /* Development Pods */,
+				A87354F106657E10084F7489E9EABE75 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				C562275432BD1351896B2C0888322A86 /* Pods */,
 				F03AA8D30E1898749DA3A7862E827AA3 /* Products */,
@@ -497,21 +499,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		61D7C9060A558F001293D1CEAFB0199D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A211385F5E1670319DB3627E48536B2 /* BitchApplication.h in Headers */,
-				CA155171675EF281EF90746581AF16FC /* BitchDevice.h in Headers */,
-				9120EC0973490815B2E6BB6AD11EF33C /* UAppDelegateListener.h in Headers */,
-				996952A23D3B57ED4161D8750DDA1255 /* UApplication.h in Headers */,
-				C3C0A7F922C69F46692EA0999661651B /* UKit.h in Headers */,
-				D645BD582C77ABB0B66250781E39DE6B /* ULifeCycleListener.h in Headers */,
-				3C627F76AFA708AD0C79ED2051903758 /* UnitySdk-umbrella.h in Headers */,
-				EDEFF34F3C25F7C1D12E961301548496 /* UUnityViewControllerListener.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7671B5474AB977CF4BDD6D956027C7EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +514,21 @@
 				CCC0CABB1AADB1E1751D6FC4F8CC4DAC /* SAMKeychain-umbrella.h in Headers */,
 				2550EA80C45F86FEFB6B484590C3127B /* SAMKeychain.h in Headers */,
 				0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB24CA86E81051475622419BC0756C44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594CC8E5D040A73F87C95EAB5CA4E361 /* BitchApplication.h in Headers */,
+				72ED50D34A0E20EF11AA289D5813F4CD /* BitchDevice.h in Headers */,
+				6107371EFEC60E506D35CDEC1C916796 /* UAppDelegateListener.h in Headers */,
+				B57782B56BFAE2EA4A75EEACDBBA1509 /* UApplication.h in Headers */,
+				0BB8EFF48C45BEF9A2F3B5652842C671 /* UKit.h in Headers */,
+				D4810A9A34D12CD9FE9B592C476D2E1D /* ULifeCycleListener.h in Headers */,
+				FBDE457F18CE041B032AE116CD7B4A79 /* UnitySdk-umbrella.h in Headers */,
+				665F95E27CF271EF099675FC99373B0E /* UUnityViewControllerListener.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,9 +574,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				B5CEDC3CC14C7266FDA4E72960C80A7A /* PBXTargetDependency */,
-				DDDBE9E20BB1CEB56F1C50585750E2EE /* PBXTargetDependency */,
-				6C66344B939F866127F65638DB29C497 /* PBXTargetDependency */,
+				D2BA40834001F413AE28E61EE099C269 /* PBXTargetDependency */,
+				B2598B8F2688C35B371F00BD46E9E305 /* PBXTargetDependency */,
+				84172DDEC3F24CA1AAFC4BEF52D17FA9 /* PBXTargetDependency */,
 			);
 			name = "Pods-UnitySdk_Example";
 			productName = "Pods-UnitySdk_Example";
@@ -629,7 +631,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A01F9A9A85BC76A08AB6A43F9D2ED252 /* PBXTargetDependency */,
+				3CD43AD8A43483E20111CC764789B9AE /* PBXTargetDependency */,
 			);
 			name = "Pods-UnitySdk_Tests";
 			productName = "Pods-UnitySdk_Tests";
@@ -638,18 +640,18 @@
 		};
 		D87E26324D77CB34D7783795202704ED /* UnitySdk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EA8B8BC15C569C6A4A36C13C22758EE /* Build configuration list for PBXNativeTarget "UnitySdk" */;
+			buildConfigurationList = DCCC7CA56CD831623E29D45A941BA198 /* Build configuration list for PBXNativeTarget "UnitySdk" */;
 			buildPhases = (
-				61D7C9060A558F001293D1CEAFB0199D /* Headers */,
-				A75E0BD9F0592780E9DDE61EF983C0FE /* Sources */,
-				909EBA517696ED15C4BA5062122508C1 /* Frameworks */,
-				1E7978C8E086276D8A15358873FC4F89 /* Resources */,
+				BB24CA86E81051475622419BC0756C44 /* Headers */,
+				8BAFB472DD69A473E5DF6C215FEBBE3D /* Sources */,
+				E02E1BDF19741EFC8600C4C1AE7A863C /* Frameworks */,
+				6363880BD4392F074A44E1527F8038EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CED42DEB30019B759130767EA784097E /* PBXTargetDependency */,
-				4831B7A77AF2DF0C441D26492A31EDDD /* PBXTargetDependency */,
+				41531DA2993694AB53233269F9C77A5B /* PBXTargetDependency */,
+				19B4994F48361B366462109599AF23BD /* PBXTargetDependency */,
 			);
 			name = UnitySdk;
 			productName = UnitySdk;
@@ -695,14 +697,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E7978C8E086276D8A15358873FC4F89 /* Resources */ = {
+		5526C4C8822D8F13C2C736A5F9677481 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5526C4C8822D8F13C2C736A5F9677481 /* Resources */ = {
+		6363880BD4392F074A44E1527F8038EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -761,6 +763,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8BAFB472DD69A473E5DF6C215FEBBE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330CDBC29343C13EDA854E0C2D66B18E /* BitchApplication.m in Sources */,
+				E70C5ADA7B9503285D56E00D9D5AC515 /* BitchDevice.m in Sources */,
+				233275DFFF140E754154AEB04B6A2812 /* UAppDelegateListener.mm in Sources */,
+				4C3E04206643327B73D1D5C51FD9CEC7 /* UApplication.m in Sources */,
+				F16907B609810422393C708F73BF23C1 /* UKit.mm in Sources */,
+				0AE38CCB84D0ED3EBD645CBFE09EDF97 /* ULifeCycleListener.mm in Sources */,
+				493C949B88C5C6BA3126CD720A568479 /* UnitySdk-dummy.m in Sources */,
+				31075D878557473199D62BEA775CBD49 /* UUnityViewControllerListener.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A63338510D2B653EDCDA5C95CBFCA292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -771,59 +788,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A75E0BD9F0592780E9DDE61EF983C0FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F4039CE0406834EF4D424B3D388C4DA /* BitchApplication.m in Sources */,
-				AEC9EAE73EDC0A742DEE04106E7BC351 /* BitchDevice.m in Sources */,
-				44CEE4245FEA4040F6733DBF739F66A7 /* UAppDelegateListener.mm in Sources */,
-				DFEC4FB572BCFD471853DFD2352AD93E /* UApplication.m in Sources */,
-				55DB9B94BD1A57EE1E30AB30CA31FAFB /* UKit.mm in Sources */,
-				F094708B88B613B30655E64D11AF6A49 /* ULifeCycleListener.mm in Sources */,
-				9F16E473F4054554BEDC339EA61CF561 /* UnitySdk-dummy.m in Sources */,
-				FCD4CD5A5859F3920D66C3EF6A68048B /* UUnityViewControllerListener.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4831B7A77AF2DF0C441D26492A31EDDD /* PBXTargetDependency */ = {
+		19B4994F48361B366462109599AF23BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAMKeychain;
 			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
-			targetProxy = B72662D7F6BFBB4E939AE65730A927D0 /* PBXContainerItemProxy */;
+			targetProxy = 1180EF8D9BB31BCB274BE491CF9F7106 /* PBXContainerItemProxy */;
 		};
-		6C66344B939F866127F65638DB29C497 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UnitySdk;
-			target = D87E26324D77CB34D7783795202704ED /* UnitySdk */;
-			targetProxy = 4EC25E0ABCF38F5DCCCB352658FE524B /* PBXContainerItemProxy */;
-		};
-		A01F9A9A85BC76A08AB6A43F9D2ED252 /* PBXTargetDependency */ = {
+		3CD43AD8A43483E20111CC764789B9AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UnitySdk_Example";
 			target = 27BB973E4395BF67546F615FF587BE74 /* Pods-UnitySdk_Example */;
-			targetProxy = C06C267C284CCFAB528C1E85D9CB3570 /* PBXContainerItemProxy */;
+			targetProxy = 36D90AE0A3C34F51E91891640952E23D /* PBXContainerItemProxy */;
 		};
-		B5CEDC3CC14C7266FDA4E72960C80A7A /* PBXTargetDependency */ = {
+		41531DA2993694AB53233269F9C77A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MJExtension;
 			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 7EF8E13B9F1C21AAB3455A1C9BDE9F9E /* PBXContainerItemProxy */;
+			targetProxy = BB5EE9227B5C106244DEB12D4E0657A4 /* PBXContainerItemProxy */;
 		};
-		CED42DEB30019B759130767EA784097E /* PBXTargetDependency */ = {
+		84172DDEC3F24CA1AAFC4BEF52D17FA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MJExtension;
-			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
-			targetProxy = 7CDC2C431D67D26B1439B0A5E6314776 /* PBXContainerItemProxy */;
+			name = UnitySdk;
+			target = D87E26324D77CB34D7783795202704ED /* UnitySdk */;
+			targetProxy = B415699D328A15545B9A4CCD294C4E53 /* PBXContainerItemProxy */;
 		};
-		DDDBE9E20BB1CEB56F1C50585750E2EE /* PBXTargetDependency */ = {
+		B2598B8F2688C35B371F00BD46E9E305 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAMKeychain;
 			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
-			targetProxy = 476D310CF813D96133FFC1A33FFF33E7 /* PBXContainerItemProxy */;
+			targetProxy = FABAA9D4C13BC9AA4EF5DB1F0EC991F6 /* PBXContainerItemProxy */;
+		};
+		D2BA40834001F413AE28E61EE099C269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = E17E6EC8251B22C82BF313B4C9DF2EE9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -951,37 +953,6 @@
 			};
 			name = Debug;
 		};
-		6ACD508FF1D2D6730C3D9090C4E63794 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 816A65DBE603CF0496D01EF78A485845 /* UnitySdk.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
-				PRODUCT_MODULE_NAME = UnitySdk;
-				PRODUCT_NAME = UnitySdk;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1037,7 +1008,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1069,6 +1041,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7ACEB349E8EF8B784F01E10617CE9EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7483C706135064701D2D6B037AAFFBFD /* UnitySdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnitySdk/UnitySdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnitySdk/UnitySdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UnitySdk/UnitySdk.modulemap";
+				PRODUCT_MODULE_NAME = UnitySdk;
+				PRODUCT_NAME = UnitySdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1109,9 +1113,9 @@
 			};
 			name = Release;
 		};
-		B569770FA615DA22F73A01BFB868F7FE /* Release */ = {
+		A7D8729D24D55523076702A9F3C61E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 398C68D36A9F24D557BDCD273A0A4761 /* UnitySdk.release.xcconfig */;
+			baseConfigurationReference = 9282A8A8FE96F9B55CD73B9E7120972A /* UnitySdk.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1135,11 +1139,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B8A44382B346044F280FC1C1F3E10F91 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1291,15 +1294,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EA8B8BC15C569C6A4A36C13C22758EE /* Build configuration list for PBXNativeTarget "UnitySdk" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6ACD508FF1D2D6730C3D9090C4E63794 /* Debug */,
-				B569770FA615DA22F73A01BFB868F7FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1323,6 +1317,15 @@
 			buildConfigurations = (
 				5FADA9A58B14F0ED8467E342C8A32036 /* Debug */,
 				7400897BCC8AE43ECC465C87B5D7784C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCCC7CA56CD831623E29D45A941BA198 /* Build configuration list for PBXNativeTarget "UnitySdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D8729D24D55523076702A9F3C61E0F /* Debug */,
+				7ACEB349E8EF8B784F01E10617CE9EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
