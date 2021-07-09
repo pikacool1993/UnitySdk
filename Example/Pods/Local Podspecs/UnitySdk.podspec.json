@@ -22,9 +22,6 @@
   "static_framework": true,
   "libraries": "c++",
   "dependencies": {
-    "FBSDKLoginKit": [
-
-    ],
     "MJExtension": [
 
     ],

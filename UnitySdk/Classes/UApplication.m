@@ -7,6 +7,11 @@
 
 #import "UApplication.h"
 
+#import <AdSupport/AdSupport.h>
+#if defined(__IPHONE_14_0)
+#import <AppTrackingTransparency/AppTrackingTransparency.h>
+#endif
+
 @interface UApplication ()
 
 @end
@@ -18,28 +23,8 @@
     static UApplication *application = nil;
     dispatch_once(&onceToken,^{
         application = [[self alloc] init];
-        // 读配置
-        [application initConfig];
     });
     return application;
-}
-
-- (void)initConfig {
-    NSString *path = [[NSBundle mainBundle] pathForResource:UConfigJsonFileName ofType:nil];
-    
-    NSError *error;
-    NSString *configJsonString = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
-    if (!error) {
-        NSData *configJsonData = [configJsonString dataUsingEncoding:NSUTF8StringEncoding];
-        NSDictionary *configDict = [NSJSONSerialization JSONObjectWithData:configJsonData options:NSJSONReadingMutableContainers error:&error];
-        if (!error) {
-            self.config = [UConfig initWithDictionary:configDict];
-        } else {
-            
-        }
-    } else {
-        
-    }
 }
 
 #pragma mark - AppDelegate
@@ -47,7 +32,11 @@
 
 #pragma mark - LifeCycle
 - (void)applicationFinishLaunching:(UIApplication *)application {
-    
+    if (@available(iOS 14, *)) {
+        [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+            //建议在这个回调后，再进行广告的加载，以便于三方渠道使用IDFA
+        }];
+    }
 }
 
 - (void)applicationBecomeActive:(UIApplication *)application {

@@ -1,18 +1,7 @@
 PODS:
-  - FBSDKCoreKit (7.1.1):
-    - FBSDKCoreKit/Basics (= 7.1.1)
-    - FBSDKCoreKit/Core (= 7.1.1)
-  - FBSDKCoreKit/Basics (7.1.1)
-  - FBSDKCoreKit/Core (7.1.1):
-    - FBSDKCoreKit/Basics
-  - FBSDKLoginKit (7.1.1):
-    - FBSDKLoginKit/Login (= 7.1.1)
-  - FBSDKLoginKit/Login (7.1.1):
-    - FBSDKCoreKit (~> 7.1.1)
   - MJExtension (3.2.4)
   - SAMKeychain (1.5.3)
   - UnitySdk (0.0.5):
-    - FBSDKLoginKit
     - MJExtension
     - SAMKeychain
 
@@ -21,8 +10,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - FBSDKCoreKit
-    - FBSDKLoginKit
     - MJExtension
     - SAMKeychain
 
@@ -31,11 +18,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
-  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
-  UnitySdk: 5607c31d6f7b93afe81c137d925fe8a131d53ffc
+  UnitySdk: 41a476305e37e756d4c748eace68f10fe7db4820
 
 PODFILE CHECKSUM: 41c39135f8887d08711c26476f13edd55e5f7cea
 
