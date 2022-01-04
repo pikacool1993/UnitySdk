@@ -32,15 +32,15 @@
 
 #pragma mark - LifeCycle
 - (void)applicationFinishLaunching:(UIApplication *)application {
+    
+}
+
+- (void)applicationBecomeActive:(UIApplication *)application {
     if (@available(iOS 14, *)) {
         [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
             //建议在这个回调后，再进行广告的加载，以便于三方渠道使用IDFA
         }];
     }
-}
-
-- (void)applicationBecomeActive:(UIApplication *)application {
-    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
